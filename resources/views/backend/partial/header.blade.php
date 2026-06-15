@@ -1,117 +1,103 @@
-<header class="main-header">
-    <nav class="navbar navbar-static-top" style="background: #ffffff; box-shadow: 0 4px 20px rgba(0,0,0,0.03);">
+@php
+    $words = explode(" ", auth()->user()->name);
+    $initials = "";
+    foreach ($words as $w) {
+        $initials .= substr($w, 0, 1);
+    }
+    $initials = strtoupper(substr($initials, 0, 3));
+    if (empty($initials)) {
+        $initials = "DKA";
+    }
+@endphp
+<header class="main-header" style="background: #ffffff; border-bottom: 1px solid rgba(11, 94, 215, 0.06); height: 64px !important;">
+    <nav class="navbar navbar-static-top" style="background: #ffffff; margin: 0; padding: 0; display: flex; align-items: center; justify-content: space-between; height: 64px !important; border: none !important; box-shadow: none !important;">
 
-        <div class="header-logo-container hidden-xs">
-            <div class="logo-circle">
-                @if(isset($appSettings['institute_settings']['short_name']))
-                    {{ substr($appSettings['institute_settings']['short_name'], 0, 1) }}
-                @else
-                    D
-                @endif
+        <!-- Header Left: Sidebar Toggle + Search -->
+        <div style="display: flex; align-items: center; flex: 1;">
+            <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button" style="color: #94a3b8; padding: 22px 20px; float: left; font-size: 16px; border: none; background: transparent;">
+                <span class="sr-only">Toggle navigation</span>
+            </a>
+
+            <!-- Pill Search Bar matching screenshot -->
+            <div class="navbar-search hidden-xs" style="padding: 12px 15px;">
+                <div style="position: relative; display: flex; align-items: center; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 6px 14px; width: 260px; transition: all 0.2s; gap: 8px;">
+                    <i class="fa fa-search" style="color: #94a3b8; font-size: 13px;"></i>
+                    <input type="text" placeholder="Search..." style="border: none; background: transparent; width: 100%; outline: none; font-size: 13px; color: #1a1a2e; font-family: 'Poppins', sans-serif;">
+                    <span style="font-size: 10px; color: #94a3b8; border: 1px solid #e2e8f0; border-radius: 6px; padding: 2px 6px; font-family: monospace; font-weight: bold; background: #ffffff; white-space: nowrap; display: inline-flex; align-items: center; gap: 2px; line-height: 1;">⌘F</span>
+                </div>
             </div>
-            <span class="logo-text">
-                @if(isset($appSettings['institute_settings']['short_name']))
-                    {{$appSettings['institute_settings']['short_name']}}
-                @else
-                    DevSuite Edu
-                @endif
-            </span>
         </div>
 
-        <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button" style="color: #64748b; padding: 15px; float: left;">
-            <span class="sr-only">Toggle navigation</span>
-        </a>
-
-        <div class="navbar-search hidden-xs" style="float: left; padding: 7px 15px;">
-            <div style="position: relative; display: flex; align-items: center; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 50px; padding: 8px 20px; width: 320px; transition: all 0.3s;" onmouseover="this.style.borderColor='#cbd5e1'" onmouseout="this.style.borderColor='#e2e8f0'">
-                <input type="text" placeholder="Search something..." style="border: none; background: transparent; width: 100%; outline: none; font-size: 14px; color: #334155;">
-                <i class="fa fa-search" style="color: #94a3b8; margin-left: 10px; font-size: 14px;"></i>
-            </div>
-        </div>
-
-        <div class="navbar-custom-menu" style="display: flex; align-items: center; padding-right: 20px;">
-            <ul class="nav navbar-nav" style="display: flex; align-items: center; gap: 15px;">
+        <!-- Header Right: Notifications + User Profile -->
+        <div style="display: flex; align-items: center; padding-right: 20px;">
+            <ul class="nav navbar-nav" style="display: flex; align-items: center; gap: 15px; margin: 0; list-style: none;">
                 
-                <!-- <li>
-                    <a href="#" data-toggle="control-sidebar" style="color: #64748b; font-size: 18px; padding: 10px;">
-                        <i class="fa fa-cog"></i>
-                    </a>
-                </li> -->
-
-                <li class="dropdown messages-menu">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color: #64748b; font-size: 18px; padding: 10px; position: relative;">
+                <!-- Notification Bell -->
+                <li class="dropdown messages-menu" style="display: inline-block;">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color: #94a3b8; font-size: 18px; padding: 10px; position: relative; display: flex; align-items: center; justify-content: center; background: transparent; text-decoration: none;">
                         <i class="fa fa-bell-o"></i>
-                        <span class="label" style="position: absolute; top: 8px; right: 8px; width: 8px; height: 8px; background: #f97316; border-radius: 50%; padding: 0;"></span> 
+                        <span style="position: absolute; top: 8px; right: 8px; width: 8px; height: 8px; background: #f97316; border-radius: 50%;"></span> 
                     </a>
-                    <ul class="dropdown-menu" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); border: 1px solid #f1f5f9;">
-                        <li class="header notificaton_header" style="font-weight: 600; color: #334155;">You have 0 recent notifications</li>
+                    <ul class="dropdown-menu" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); border: 1px solid #f1f5f9; padding: 0;">
+                        <li class="header" style="font-weight: 600; color: #334155; padding: 10px 15px; border-bottom: 1px solid #f1f5f9; font-size: 13px; font-family: 'Poppins', sans-serif;">You have 0 recent notifications</li>
                         <li>
                             <ul class="menu notification_top"></ul>
                         </li>
-                        <li class="footer"><a href="{{route('user.notification_unread')}}" style="color: #3b82f6;">See All Notifications</a></li>
+                        <li class="footer" style="padding: 10px 15px; text-align: center; border-top: 1px solid #f1f5f9;"><a href="{{route('user.notification_unread')}}" style="color: #0B5ED7; font-weight: 600; text-decoration: none; font-size: 12px; font-family: 'Poppins', sans-serif;">See All Notifications</a></li>
                     </ul>
                 </li>                                                 
                 
-                <!-- @if($show_language)
-                <li class="dropdown lang-menu">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="padding: 10px;">
-                        <img class="language-img" src="{{ asset('images/lang/'.$locale.'.png') }}" style="width: 20px; border-radius: 50%;">
-                    </a>
-                    <ul class="dropdown-menu" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); border: 1px solid #f1f5f9;">
-                        <li class="header" style="font-weight: 600;"> Language</li>
-                        @foreach($languages as $key => $lang)
-                        <li class="language" id="bangla">
-                            <a href="#">
-                                <div class="pull-left">
-                                    <img src="{{ asset('images/lang/'.$key.'.png') }}" style="width: 20px;">
-                                </div>
-                                <h4>
-                                    {{$lang}} @if($locale == $key) <i class="glyphicon glyphicon-ok green pull-right"></i> @endif
-                                </h4>
-                            </a>
-                        </li>
-                        @endforeach
-                    </ul>
-                </li>
-                @endif -->
-                
-                <li class="dropdown user user-menu">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="display: flex; align-items: center; gap: 12px; padding: 10px; border-left: 1px solid #f1f5f9; margin-left: 10px; padding-left: 20px;">
-                        <div class="user-info-text hidden-xs" style="display: inline-flex; flex-direction: column; text-align: right;">
-                            <span class="user-name" style="font-size: 14px; font-weight: 600; color: #0f172a; line-height: 1.2;">{{auth()->user()->name}}</span>
-                            <span class="user-role" style="font-size: 11px; color: #94a3b8; font-weight: 500;">View profile</span>
+                <!-- User profile dropdown matching screenshot -->
+                <li class="dropdown user user-menu" style="display: inline-block;">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="display: flex; align-items: center; gap: 10px; padding: 10px; text-decoration: none; background: transparent;">
+                        <!-- Initials circle avatar -->
+                        <div style="width: 36px; height: 36px; border-radius: 50%; background: #0B5ED7; color: #ffffff; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 13px; font-family: 'Poppins', sans-serif; box-shadow: 0 4px 10px rgba(11, 94, 215, 0.25);">
+                            {{ $initials }}
                         </div>
-                        <img src="{{ asset('images/avatar.jpg') }}" class="user-image img-circle" alt="User Image" style="width: 40px; height: 40px; border: 2px solid #e2e8f0; padding: 2px;">
+                        <!-- Name & Email text info -->
+                        <div class="user-info-text hidden-xs" style="display: inline-flex; flex-direction: column; text-align: left; line-height: 1.3;">
+                            <span class="user-name" style="font-size: 13px; font-weight: 600; color: #1a1a2e; font-family: 'Poppins', sans-serif;">{{ auth()->user()->name }}</span>
+                            <span class="user-email" style="font-size: 11px; color: #9ca3af; font-family: 'Poppins', sans-serif;">{{ auth()->user()->email ?? 'k.asante@htu.edu.gh' }}</span>
+                        </div>
+                        <i class="fa fa-angle-down" style="color: #94a3b8; font-size: 14px;"></i>
                     </a>
 
-                    <ul class="dropdown-menu" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); border: 1px solid #f1f5f9;">
-                        <li class="user-body" style="padding: 15px;">
-                            <div class="col-xs-6 text-center">
-                                <a href="{{ URL::route('profile') }}" style="color: #64748b;">
-                                    <div style="font-size: 18px; margin-bottom: 5px; color: #3b82f6;"><i class="fa fa-user"></i></div>
-                                    Profile
-                                </a>
-                            </div>
-                            <div class="col-xs-6 text-center password">
-                                <a href="{{ URL::route('change_password') }}" style="color: #64748b;">
-                                    <div style="font-size: 18px; margin-bottom: 5px; color: #3b82f6;"><i class="fa fa-lock"></i></div>
-                                   Password
-                                </a>
-                            </div>
+                    <ul class="dropdown-menu" style="border-radius: 16px; box-shadow: 0 10px 30px rgba(15, 23, 42, 0.15); border: 1px solid #e2e8f0; padding: 8px; width: 220px; font-family: 'Poppins', sans-serif; margin-top: 10px; border-top: none;">
+                        <!-- User Info Header inside dropdown -->
+                        <li style="padding: 12px 16px; border-bottom: 1px solid #f1f5f9; margin-bottom: 6px;">
+                            <div style="font-size: 13px; font-weight: 600; color: #1a1a2e;">{{ auth()->user()->name }}</div>
+                            <div style="font-size: 11px; color: #9ca3af; word-break: break-all;">{{ auth()->user()->email ?? 'k.asante@htu.edu.gh' }}</div>
                         </li>
-                        <li class="user-footer" style="background: #f8fafc; border-top: 1px solid #f1f5f9; border-radius: 0 0 12px 12px;">
-                            <div class="col-xs-6 text-center">
-                                <a href="{{ URL::route('logout') }}" style="color: #ef4444; font-weight: 600;">
-                                    <div style="font-size: 18px; margin-bottom: 5px;"><i class="fa fa-power-off"></i></div>
-                                    Log out
-                                </a>
-                            </div>
-                            <div class="col-xs-6 text-center password">
-                                <a href="{{ URL::route('lockscreen') }}" style="color: #64748b;">
-                                    <div style="font-size: 18px; margin-bottom: 5px;"><i class="fa fa-eye-slash"></i></div>
-                                    Lock Screen
-                                </a>
-                            </div>
+                        
+                        <!-- Menu Items -->
+                        <li>
+                            <a href="{{ URL::route('profile') }}" style="display: flex; align-items: center; gap: 10px; padding: 10px 14px; color: #4b5563; font-size: 13px; font-weight: 500; border-radius: 8px; text-decoration: none; transition: all 0.2s;">
+                                <i class="fa fa-user" style="font-size: 14px; color: #9ca3af; width: 16px; text-align: center;"></i>
+                                <span>My Profile</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ URL::route('change_password') }}" style="display: flex; align-items: center; gap: 10px; padding: 10px 14px; color: #4b5563; font-size: 13px; font-weight: 500; border-radius: 8px; text-decoration: none; transition: all 0.2s;">
+                                <i class="fa fa-key" style="font-size: 14px; color: #9ca3af; width: 16px; text-align: center;"></i>
+                                <span>Change Password</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ URL::route('lockscreen') }}" style="display: flex; align-items: center; gap: 10px; padding: 10px 14px; color: #4b5563; font-size: 13px; font-weight: 500; border-radius: 8px; text-decoration: none; transition: all 0.2s;">
+                                <i class="fa fa-eye-slash" style="font-size: 14px; color: #9ca3af; width: 16px; text-align: center;"></i>
+                                <span>Lock Screen</span>
+                            </a>
+                        </li>
+                        
+                        <!-- Divider -->
+                        <li style="height: 1px; background: #f1f5f9; margin: 6px 0;"></li>
+                        
+                        <!-- Logout Item -->
+                        <li>
+                            <a href="{{ URL::route('logout') }}" style="display: flex; align-items: center; gap: 10px; padding: 10px 14px; color: #ef4444; font-size: 13px; font-weight: 600; border-radius: 8px; text-decoration: none; transition: all 0.2s;">
+                                <i class="fa fa-power-off" style="font-size: 14px; color: #ef4444; width: 16px; text-align: center;"></i>
+                                <span>Log Out</span>
+                            </a>
                         </li>
                     </ul>
                 </li>         

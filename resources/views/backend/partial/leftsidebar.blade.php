@@ -1,6 +1,18 @@
 <aside class="main-sidebar">
-    <section class="sidebar">
-        <ul class="sidebar-menu" data-widget="tree">
+    <!-- Sidebar Header Logo -->
+    <div class="sidebar-logo-container" style="padding: 24px 20px 15px; display: flex; align-items: center; gap: 10px;">
+        <div class="logo-icon-circle" style="width: 32px; height: 32px; border-radius: 50%; background: #0B5ED7; display: flex; align-items: center; justify-content: center; color: #ffffff; box-shadow: 0 4px 10px rgba(11, 94, 215, 0.25);">
+            <i class="fa fa-graduation-cap" style="font-size: 16px;"></i>
+        </div>
+        <span class="logo-text" style="font-family: 'Poppins', sans-serif; font-size: 18px; font-weight: 700; color: #1a1a2e; letter-spacing: -0.5px;">@if(isset($appSettings['institute_settings']['short_name'])){{$appSettings['institute_settings']['short_name']}}@else DevSuite Edu @endif</span>
+    </div>
+    
+    <div class="sidebar-menu-header" style="padding: 15px 24px 8px; font-family: 'Poppins', sans-serif; font-size: 11px; font-weight: 600; color: #9ca3af; text-transform: uppercase; letter-spacing: 0.8px;">
+        Menu
+    </div>
+
+    <section class="sidebar" style="padding: 0 !important;">
+        <ul class="sidebar-menu" data-widget="tree" style="background: transparent !important;">
             <li>
                 <a href="{{ URL::route('user.dashboard') }}">
                     <i class="fa fa-dashboard"></i> <span>Dashboard</span>

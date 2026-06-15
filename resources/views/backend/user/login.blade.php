@@ -78,6 +78,20 @@
                     
                     <button type="submit" class="btn btn-lg btn-block btn-flat login-button">SIGN IN</button>
                 </form>
+
+                <div class="demo-credentials-card" style="margin-top: 30px; padding: 16px; border-radius: 12px; background: #E3F3FF; border: 1px solid rgba(11, 94, 215, 0.12); font-size: 13px; color: #0B5ED7; line-height: 1.5;">
+                    <strong style="display: block; margin-bottom: 8px; font-weight: 600; font-family: 'Poppins', sans-serif;">Default Demo Credentials:</strong>
+                    <div style="margin-bottom: 6px; font-family: 'Poppins', sans-serif;">
+                        <strong style="color: #044ba8;">Super Admin:</strong><br>
+                        Username: <code style="background: rgba(11,94,215,0.08); padding: 2px 6px; border-radius: 4px; font-weight: 600; color: #0045A3;">superadmin</code><br>
+                        Password: <code style="background: rgba(11,94,215,0.08); padding: 2px 6px; border-radius: 4px; font-weight: 600; color: #0045A3;">super99</code>
+                    </div>
+                    <div style="font-family: 'Poppins', sans-serif;">
+                        <strong style="color: #044ba8;">Admin:</strong><br>
+                        Username: <code style="background: rgba(11,94,215,0.08); padding: 2px 6px; border-radius: 4px; font-weight: 600; color: #0045A3;">admin</code><br>
+                        Password: <code style="background: rgba(11,94,215,0.08); padding: 2px 6px; border-radius: 4px; font-weight: 600; color: #0045A3;">demo123</code>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

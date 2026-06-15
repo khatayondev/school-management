@@ -17,6 +17,11 @@
     <script src="{{ asset(mix('/js/pace.js')) }}"></script>
     <link href="{{ asset(mix('/css/pace.css')) }}" rel="stylesheet" type="text/css">
 
+    <!-- Google Fonts Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
     <!-- vendor libraries CSS -->
     <link href="{{ asset(mix('/css/vendor.css')) }}" rel="stylesheet" type="text/css">
     <!-- theme CSS -->

@@ -1,9 +1,25 @@
 {
   "roles": [
-    { "id": 1, "name": "Admin", "slug": "admin" },
-    { "id": 2, "name": "Teacher", "slug": "teacher" },
-    { "id": 3, "name": "Student", "slug": "student" },
-    { "id": 4, "name": "Accountant", "slug": "accountant" }
+    {
+      "id": 1,
+      "name": "Admin",
+      "slug": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Teacher",
+      "slug": "teacher"
+    },
+    {
+      "id": 3,
+      "name": "Student",
+      "slug": "student"
+    },
+    {
+      "id": 4,
+      "name": "Accountant",
+      "slug": "accountant"
+    }
   ],
   "users": [
     {
@@ -16,151 +32,1923 @@
     },
     {
       "id": 2,
-      "name": "Prof. Emmanuel Kwesi",
-      "email": "ekwesi@htu.edu.gh",
-      "username": "ekwesi",
-      "role_id": 2,
+      "name": "Francisca Osei",
+      "email": "fosei@htu.edu.gh",
+      "username": "fosei",
+      "role_id": 4,
       "status": "active"
     },
     {
       "id": 3,
-      "name": "Dr. Sarah Mensah",
-      "email": "smensah@htu.edu.gh",
-      "username": "smensah",
+      "name": "Mr. Stephen Annan",
+      "email": "stephena@htu.edu.gh",
+      "username": "stephena",
       "role_id": 2,
       "status": "active"
     },
     {
       "id": 4,
-      "name": "John Doe",
-      "email": "johndoe@student.htu.edu.gh",
-      "username": "johndoe",
-      "role_id": 3,
+      "name": "Mrs. Kwame Owusu",
+      "email": "kwameowu@htu.edu.gh",
+      "username": "kwameowu",
+      "role_id": 2,
       "status": "active"
     },
     {
       "id": 5,
-      "name": "Aba Mansa",
-      "email": "amansa@htu.edu.gh",
-      "username": "amansa",
-      "role_id": 4,
+      "name": "Mr. Larbi Arthur",
+      "email": "larbiart@htu.edu.gh",
+      "username": "larbiart",
+      "role_id": 2,
+      "status": "active"
+    },
+    {
+      "id": 6,
+      "name": "Mrs. Addai Tetteh",
+      "email": "addaitet@htu.edu.gh",
+      "username": "addaitet",
+      "role_id": 2,
+      "status": "active"
+    },
+    {
+      "id": 7,
+      "name": "Mr. John Lopez",
+      "email": "johnlope@htu.edu.gh",
+      "username": "johnlope",
+      "role_id": 2,
+      "status": "active"
+    },
+    {
+      "id": 8,
+      "name": "Mrs. Kwame Arthur",
+      "email": "kwameart@htu.edu.gh",
+      "username": "kwameart",
+      "role_id": 2,
+      "status": "active"
+    },
+    {
+      "id": 9,
+      "name": "Mr. Osei Smith",
+      "email": "oseismit@htu.edu.gh",
+      "username": "oseismit",
+      "role_id": 2,
+      "status": "active"
+    },
+    {
+      "id": 10,
+      "name": "Mrs. John Johnson",
+      "email": "johnjohn@htu.edu.gh",
+      "username": "johnjohn",
+      "role_id": 2,
+      "status": "active"
+    },
+    {
+      "id": 11,
+      "name": "Mr. Kwame Amponsah",
+      "email": "kwameamp@htu.edu.gh",
+      "username": "kwameamp",
+      "role_id": 2,
+      "status": "active"
+    },
+    {
+      "id": 12,
+      "name": "Mrs. Boateng Mensah",
+      "email": "boatengm@htu.edu.gh",
+      "username": "boatengm",
+      "role_id": 2,
+      "status": "active"
+    },
+    {
+      "id": 13,
+      "name": "Mr. Ackon Smith",
+      "email": "ackonsmi@htu.edu.gh",
+      "username": "ackonsmi",
+      "role_id": 2,
+      "status": "active"
+    },
+    {
+      "id": 14,
+      "name": "Mrs. Mensah Gyasi",
+      "email": "mensahgy@htu.edu.gh",
+      "username": "mensahgy",
+      "role_id": 2,
+      "status": "active"
+    },
+    {
+      "id": 15,
+      "name": "Mensah Lopez",
+      "email": "mensahlop44@student.htu.edu.gh",
+      "username": "mensahlop44",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 16,
+      "name": "Osei Miller",
+      "email": "oseimil10@student.htu.edu.gh",
+      "username": "oseimil10",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 17,
+      "name": "Fatima Sackey",
+      "email": "fatimasac91@student.htu.edu.gh",
+      "username": "fatimasac91",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 18,
+      "name": "Mary Hernandez",
+      "email": "maryher10@student.htu.edu.gh",
+      "username": "maryher10",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 19,
+      "name": "Annan Sackey",
+      "email": "annansac40@student.htu.edu.gh",
+      "username": "annansac40",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 20,
+      "name": "David Gyasi",
+      "email": "davidgya78@student.htu.edu.gh",
+      "username": "davidgya78",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 21,
+      "name": "Osei Mensah",
+      "email": "oseimen77@student.htu.edu.gh",
+      "username": "oseimen77",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 22,
+      "name": "Ackon Smith",
+      "email": "ackonsmi66@student.htu.edu.gh",
+      "username": "ackonsmi66",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 23,
+      "name": "Amina Adusei",
+      "email": "aminaadu12@student.htu.edu.gh",
+      "username": "aminaadu12",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 24,
+      "name": "Amina Osei",
+      "email": "aminaose39@student.htu.edu.gh",
+      "username": "aminaose39",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 25,
+      "name": "Emmanuel Donkor",
+      "email": "emmanueldon45@student.htu.edu.gh",
+      "username": "emmanueldon45",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 26,
+      "name": "Daniel Davis",
+      "email": "danieldav41@student.htu.edu.gh",
+      "username": "danieldav41",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 27,
+      "name": "Fatima Jones",
+      "email": "fatimajon55@student.htu.edu.gh",
+      "username": "fatimajon55",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 28,
+      "name": "Esther Tetteh",
+      "email": "esthertet17@student.htu.edu.gh",
+      "username": "esthertet17",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 29,
+      "name": "Gyamfi Asare",
+      "email": "gyamfiasa78@student.htu.edu.gh",
+      "username": "gyamfiasa78",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 30,
+      "name": "Adu Miller",
+      "email": "adumil41@student.htu.edu.gh",
+      "username": "adumil41",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 31,
+      "name": "Esther Lopez",
+      "email": "estherlop11@student.htu.edu.gh",
+      "username": "estherlop11",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 32,
+      "name": "David Davis",
+      "email": "daviddav37@student.htu.edu.gh",
+      "username": "daviddav37",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 33,
+      "name": "Kofi Johnson",
+      "email": "kofijoh43@student.htu.edu.gh",
+      "username": "kofijoh43",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 34,
+      "name": "David Frimpong",
+      "email": "davidfri34@student.htu.edu.gh",
+      "username": "davidfri34",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 35,
+      "name": "Mary Osei",
+      "email": "maryose50@student.htu.edu.gh",
+      "username": "maryose50",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 36,
+      "name": "Grace Agyemang",
+      "email": "graceagy17@student.htu.edu.gh",
+      "username": "graceagy17",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 37,
+      "name": "Amina Donkor",
+      "email": "aminadon61@student.htu.edu.gh",
+      "username": "aminadon61",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 38,
+      "name": "Joseph Appiah",
+      "email": "josephapp89@student.htu.edu.gh",
+      "username": "josephapp89",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 39,
+      "name": "Dankwa Koomson",
+      "email": "dankwakoo95@student.htu.edu.gh",
+      "username": "dankwakoo95",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 40,
+      "name": "Serwaa Sackey",
+      "email": "serwaasac68@student.htu.edu.gh",
+      "username": "serwaasac68",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 41,
+      "name": "Samuel Tetteh",
+      "email": "samueltet19@student.htu.edu.gh",
+      "username": "samueltet19",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 42,
+      "name": "Tetteh Gyasi",
+      "email": "tettehgya41@student.htu.edu.gh",
+      "username": "tettehgya41",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 43,
+      "name": "Mary Sackey",
+      "email": "marysac88@student.htu.edu.gh",
+      "username": "marysac88",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 44,
+      "name": "Serwaa Mensah",
+      "email": "serwaamen24@student.htu.edu.gh",
+      "username": "serwaamen24",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 45,
+      "name": "Baah Koomson",
+      "email": "baahkoo53@student.htu.edu.gh",
+      "username": "baahkoo53",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 46,
+      "name": "Dankwa Osei",
+      "email": "dankwaose21@student.htu.edu.gh",
+      "username": "dankwaose21",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 47,
+      "name": "Addai Boakye",
+      "email": "addaiboa91@student.htu.edu.gh",
+      "username": "addaiboa91",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 48,
+      "name": "Mensah Mensah",
+      "email": "mensahmen24@student.htu.edu.gh",
+      "username": "mensahmen24",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 49,
+      "name": "Elizabeth Frimpong",
+      "email": "elizabethfri65@student.htu.edu.gh",
+      "username": "elizabethfri65",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 50,
+      "name": "Kwame Doe",
+      "email": "kwamedoe36@student.htu.edu.gh",
+      "username": "kwamedoe36",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 51,
+      "name": "Larbi Frimpong",
+      "email": "larbifri40@student.htu.edu.gh",
+      "username": "larbifri40",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 52,
+      "name": "Oppong Adusei",
+      "email": "oppongadu62@student.htu.edu.gh",
+      "username": "oppongadu62",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 53,
+      "name": "Quansah Appiah",
+      "email": "quansahapp70@student.htu.edu.gh",
+      "username": "quansahapp70",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 54,
+      "name": "Frimpong Arthur",
+      "email": "frimpongart38@student.htu.edu.gh",
+      "username": "frimpongart38",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 55,
+      "name": "Adu Gyasi",
+      "email": "adugya45@student.htu.edu.gh",
+      "username": "adugya45",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 56,
+      "name": "Addai Owusu",
+      "email": "addaiowu24@student.htu.edu.gh",
+      "username": "addaiowu24",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 57,
+      "name": "Fatima Jones",
+      "email": "fatimajon54@student.htu.edu.gh",
+      "username": "fatimajon54",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 58,
+      "name": "Quansah Asare",
+      "email": "quansahasa42@student.htu.edu.gh",
+      "username": "quansahasa42",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 59,
+      "name": "Mary Asare",
+      "email": "maryasa56@student.htu.edu.gh",
+      "username": "maryasa56",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 60,
+      "name": "Owusu Annan",
+      "email": "owusuann48@student.htu.edu.gh",
+      "username": "owusuann48",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 61,
+      "name": "Baah Boakye",
+      "email": "baahboa34@student.htu.edu.gh",
+      "username": "baahboa34",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 62,
+      "name": "Daniel Sackey",
+      "email": "danielsac61@student.htu.edu.gh",
+      "username": "danielsac61",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 63,
+      "name": "Mensah Amponsah",
+      "email": "mensahamp69@student.htu.edu.gh",
+      "username": "mensahamp69",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 64,
+      "name": "Sarah Agyemang",
+      "email": "sarahagy94@student.htu.edu.gh",
+      "username": "sarahagy94",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 65,
+      "name": "Addai Addo",
+      "email": "addaiadd40@student.htu.edu.gh",
+      "username": "addaiadd40",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 66,
+      "name": "Ama Appiah",
+      "email": "amaapp41@student.htu.edu.gh",
+      "username": "amaapp41",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 67,
+      "name": "Larbi Asare",
+      "email": "larbiasa99@student.htu.edu.gh",
+      "username": "larbiasa99",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 68,
+      "name": "Boateng Mensah",
+      "email": "boatengmen23@student.htu.edu.gh",
+      "username": "boatengmen23",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 69,
+      "name": "John Osei",
+      "email": "johnose81@student.htu.edu.gh",
+      "username": "johnose81",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 70,
+      "name": "John Hernandez",
+      "email": "johnher81@student.htu.edu.gh",
+      "username": "johnher81",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 71,
+      "name": "Michael Garcia",
+      "email": "michaelgar30@student.htu.edu.gh",
+      "username": "michaelgar30",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 72,
+      "name": "Stephen Quaye",
+      "email": "stephenqua76@student.htu.edu.gh",
+      "username": "stephenqua76",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 73,
+      "name": "Amina Sowah",
+      "email": "aminasow40@student.htu.edu.gh",
+      "username": "aminasow40",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 74,
+      "name": "Abdul Boakye",
+      "email": "abdulboa29@student.htu.edu.gh",
+      "username": "abdulboa29",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 75,
+      "name": "Amina Brown",
+      "email": "aminabro62@student.htu.edu.gh",
+      "username": "aminabro62",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 76,
+      "name": "Yaw Koomson",
+      "email": "yawkoo63@student.htu.edu.gh",
+      "username": "yawkoo63",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 77,
+      "name": "Quansah Davis",
+      "email": "quansahdav10@student.htu.edu.gh",
+      "username": "quansahdav10",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 78,
+      "name": "Mary Lopez",
+      "email": "marylop87@student.htu.edu.gh",
+      "username": "marylop87",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 79,
+      "name": "Mensah Rodriguez",
+      "email": "mensahrod13@student.htu.edu.gh",
+      "username": "mensahrod13",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 80,
+      "name": "John Boakye",
+      "email": "johnboa89@student.htu.edu.gh",
+      "username": "johnboa89",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 81,
+      "name": "Esther Jones",
+      "email": "estherjon27@student.htu.edu.gh",
+      "username": "estherjon27",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 82,
+      "name": "Quansah Amponsah",
+      "email": "quansahamp37@student.htu.edu.gh",
+      "username": "quansahamp37",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 83,
+      "name": "Adu Brown",
+      "email": "adubro42@student.htu.edu.gh",
+      "username": "adubro42",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 84,
+      "name": "Yaw Doe",
+      "email": "yawdoe38@student.htu.edu.gh",
+      "username": "yawdoe38",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 85,
+      "name": "Gyamfi Owusu",
+      "email": "gyamfiowu89@student.htu.edu.gh",
+      "username": "gyamfiowu89",
+      "role_id": 3,
+      "status": "active"
+    },
+    {
+      "id": 86,
+      "name": "Mensah Koomson",
+      "email": "mensahkoo69@student.htu.edu.gh",
+      "username": "mensahkoo69",
+      "role_id": 3,
       "status": "active"
     }
   ],
   "classes": [
-    { "id": 1, "name": "Grade 1", "numeric": 1, "sections": [1, 2] },
-    { "id": 2, "name": "Grade 2", "numeric": 2, "sections": [3] },
-    { "id": 3, "name": "Grade 3", "numeric": 3, "sections": [4, 5] },
-    { "id": 4, "name": "Grade 4", "numeric": 4, "sections": [6] },
-    { "id": 5, "name": "Grade 5", "numeric": 5, "sections": [7] }
+    {
+      "id": 1,
+      "name": "Grade 1",
+      "numeric": 1,
+      "sections": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Grade 2",
+      "numeric": 2,
+      "sections": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Grade 3",
+      "numeric": 3,
+      "sections": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Grade 4",
+      "numeric": 4,
+      "sections": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Grade 5",
+      "numeric": 5,
+      "sections": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Grade 6",
+      "numeric": 6,
+      "sections": [
+        11,
+        12
+      ]
+    },
+    {
+      "id": 7,
+      "name": "JHS 1",
+      "numeric": 7,
+      "sections": [
+        13,
+        14
+      ]
+    },
+    {
+      "id": 8,
+      "name": "JHS 2",
+      "numeric": 8,
+      "sections": [
+        15,
+        16
+      ]
+    },
+    {
+      "id": 9,
+      "name": "JHS 3",
+      "numeric": 9,
+      "sections": [
+        17,
+        18
+      ]
+    }
   ],
   "sections": [
-    { "id": 1, "class_id": 1, "name": "Section A", "room_no": "101" },
-    { "id": 2, "class_id": 1, "name": "Section B", "room_no": "102" },
-    { "id": 3, "class_id": 2, "name": "Section A", "room_no": "201" },
-    { "id": 4, "class_id": 3, "name": "Section A", "room_no": "301" },
-    { "id": 5, "class_id": 3, "name": "Section B", "room_no": "302" },
-    { "id": 6, "class_id": 4, "name": "Section A", "room_no": "401" },
-    { "id": 7, "class_id": 5, "name": "Section A", "room_no": "501" }
+    {
+      "id": 1,
+      "class_id": 1,
+      "name": "Section A",
+      "room_no": "102"
+    },
+    {
+      "id": 2,
+      "class_id": 1,
+      "name": "Section B",
+      "room_no": "101"
+    },
+    {
+      "id": 3,
+      "class_id": 2,
+      "name": "Section A",
+      "room_no": "202"
+    },
+    {
+      "id": 4,
+      "class_id": 2,
+      "name": "Section B",
+      "room_no": "201"
+    },
+    {
+      "id": 5,
+      "class_id": 3,
+      "name": "Section A",
+      "room_no": "302"
+    },
+    {
+      "id": 6,
+      "class_id": 3,
+      "name": "Section B",
+      "room_no": "301"
+    },
+    {
+      "id": 7,
+      "class_id": 4,
+      "name": "Section A",
+      "room_no": "402"
+    },
+    {
+      "id": 8,
+      "class_id": 4,
+      "name": "Section B",
+      "room_no": "401"
+    },
+    {
+      "id": 9,
+      "class_id": 5,
+      "name": "Section A",
+      "room_no": "502"
+    },
+    {
+      "id": 10,
+      "class_id": 5,
+      "name": "Section B",
+      "room_no": "501"
+    },
+    {
+      "id": 11,
+      "class_id": 6,
+      "name": "Section A",
+      "room_no": "602"
+    },
+    {
+      "id": 12,
+      "class_id": 6,
+      "name": "Section B",
+      "room_no": "601"
+    },
+    {
+      "id": 13,
+      "class_id": 7,
+      "name": "Section A",
+      "room_no": "702"
+    },
+    {
+      "id": 14,
+      "class_id": 7,
+      "name": "Section B",
+      "room_no": "701"
+    },
+    {
+      "id": 15,
+      "class_id": 8,
+      "name": "Section A",
+      "room_no": "802"
+    },
+    {
+      "id": 16,
+      "class_id": 8,
+      "name": "Section B",
+      "room_no": "801"
+    },
+    {
+      "id": 17,
+      "class_id": 9,
+      "name": "Section A",
+      "room_no": "902"
+    },
+    {
+      "id": 18,
+      "class_id": 9,
+      "name": "Section B",
+      "room_no": "901"
+    }
   ],
   "subjects": [
-    { "id": 1, "name": "Mathematics", "code": "MATH101", "type": "theory" },
-    { "id": 2, "name": "English Language", "code": "ENG101", "type": "theory" },
-    { "id": 3, "name": "Integrated Science", "code": "SCI101", "type": "practical" },
-    { "id": 4, "name": "Social Studies", "code": "SOC101", "type": "theory" },
-    { "id": 5, "name": "Information Technology", "code": "ICT101", "type": "practical" },
-    { "id": 6, "name": "French Language", "code": "FRE101", "type": "theory" }
+    {
+      "id": 1,
+      "name": "Mathematics",
+      "code": "MATH101",
+      "type": "theory"
+    },
+    {
+      "id": 2,
+      "name": "English Language",
+      "code": "ENGL102",
+      "type": "theory"
+    },
+    {
+      "id": 3,
+      "name": "Integrated Science",
+      "code": "ISCI103",
+      "type": "practical"
+    },
+    {
+      "id": 4,
+      "name": "Social Studies",
+      "code": "SSTU104",
+      "type": "theory"
+    },
+    {
+      "id": 5,
+      "name": "Information Technology (ICT)",
+      "code": "ICTS105",
+      "type": "practical"
+    },
+    {
+      "id": 6,
+      "name": "French",
+      "code": "FREN106",
+      "type": "theory"
+    },
+    {
+      "id": 7,
+      "name": "Creative Arts",
+      "code": "CART107",
+      "type": "theory"
+    },
+    {
+      "id": 8,
+      "name": "Physical Education",
+      "code": "PHED108",
+      "type": "theory"
+    }
   ],
   "employees": [
     {
       "id": 1,
       "user_id": 2,
-      "name": "Prof. Emmanuel Kwesi",
-      "designation": "Senior Lecturer",
-      "department": "Mathematics & Science",
-      "salary": 7500.00,
-      "phone": "+233244111222",
-      "joining_date": "2020-01-15"
+      "name": "Francisca Osei",
+      "designation": "Head Accountant",
+      "department": "Finance & Audit",
+      "salary": 6200.0,
+      "phone": "+233244888111",
+      "joining_date": "2019-02-15"
     },
     {
       "id": 2,
       "user_id": 3,
-      "name": "Dr. Sarah Mensah",
-      "designation": "Lecturer",
-      "department": "Computer Science",
-      "salary": 6500.00,
-      "phone": "+233204333444",
-      "joining_date": "2021-08-01"
+      "name": "Mr. Stephen Annan",
+      "designation": "Head Teacher",
+      "department": "Creative Arts & Music",
+      "salary": 5626.0,
+      "phone": "+233234744854",
+      "joining_date": "2021-02-27"
     },
     {
       "id": 3,
+      "user_id": 4,
+      "name": "Mrs. Kwame Owusu",
+      "designation": "Head Teacher",
+      "department": "Mathematics & Statistics",
+      "salary": 5452.0,
+      "phone": "+233281445199",
+      "joining_date": "2024-04-27"
+    },
+    {
+      "id": 4,
       "user_id": 5,
-      "name": "Aba Mansa",
-      "designation": "Finance Officer",
-      "department": "Accounts & Auditing",
-      "salary": 5800.00,
-      "phone": "+233274555666",
-      "joining_date": "2019-03-10"
+      "name": "Mr. Larbi Arthur",
+      "designation": "Tutor",
+      "department": "Social Sciences",
+      "salary": 5639.0,
+      "phone": "+233203678638",
+      "joining_date": "2023-06-18"
+    },
+    {
+      "id": 5,
+      "user_id": 6,
+      "name": "Mrs. Addai Tetteh",
+      "designation": "Head Teacher",
+      "department": "Information Technology",
+      "salary": 4896.0,
+      "phone": "+233256770619",
+      "joining_date": "2024-05-11"
+    },
+    {
+      "id": 6,
+      "user_id": 7,
+      "name": "Mr. John Lopez",
+      "designation": "Head Teacher",
+      "department": "Information Technology",
+      "salary": 4822.0,
+      "phone": "+233285918715",
+      "joining_date": "2024-06-28"
+    },
+    {
+      "id": 7,
+      "user_id": 8,
+      "name": "Mrs. Kwame Arthur",
+      "designation": "Assistant Teacher",
+      "department": "Languages & Linguistics",
+      "salary": 5453.0,
+      "phone": "+233217377459",
+      "joining_date": "2022-08-21"
+    },
+    {
+      "id": 8,
+      "user_id": 9,
+      "name": "Mr. Osei Smith",
+      "designation": "Assistant Teacher",
+      "department": "Mathematics & Statistics",
+      "salary": 7245.0,
+      "phone": "+233242197935",
+      "joining_date": "2024-03-27"
+    },
+    {
+      "id": 9,
+      "user_id": 10,
+      "name": "Mrs. John Johnson",
+      "designation": "Assistant Teacher",
+      "department": "Creative Arts & Music",
+      "salary": 7318.0,
+      "phone": "+233284684531",
+      "joining_date": "2022-01-17"
+    },
+    {
+      "id": 10,
+      "user_id": 11,
+      "name": "Mr. Kwame Amponsah",
+      "designation": "Tutor",
+      "department": "Natural Sciences",
+      "salary": 4771.0,
+      "phone": "+233236279418",
+      "joining_date": "2021-08-22"
+    },
+    {
+      "id": 11,
+      "user_id": 12,
+      "name": "Mrs. Boateng Mensah",
+      "designation": "Senior Teacher",
+      "department": "Mathematics & Statistics",
+      "salary": 6799.0,
+      "phone": "+233285408072",
+      "joining_date": "2024-07-28"
+    },
+    {
+      "id": 12,
+      "user_id": 13,
+      "name": "Mr. Ackon Smith",
+      "designation": "Senior Teacher",
+      "department": "Mathematics & Statistics",
+      "salary": 6587.0,
+      "phone": "+233272525206",
+      "joining_date": "2020-02-14"
+    },
+    {
+      "id": 13,
+      "user_id": 14,
+      "name": "Mrs. Mensah Gyasi",
+      "designation": "Tutor",
+      "department": "Information Technology",
+      "salary": 6940.0,
+      "phone": "+233279877065",
+      "joining_date": "2022-09-10"
     }
   ],
   "students": [
     {
       "id": 1,
-      "user_id": 4,
-      "name": "John Doe",
+      "user_id": 15,
+      "name": "Mensah Lopez",
       "reg_no": "HTU2026001",
-      "roll_no": "10",
+      "roll_no": "01",
       "class_id": 1,
-      "section_id": 1,
-      "phone": "+233544777888",
-      "admission_date": "2026-01-05",
+      "section_id": 2,
+      "phone": "+233515924115",
+      "admission_date": "2026-01-08",
       "status": "active"
     },
     {
       "id": 2,
-      "user_id": null,
-      "name": "Kofi Mensah",
+      "user_id": 16,
+      "name": "Osei Miller",
       "reg_no": "HTU2026002",
-      "roll_no": "12",
+      "roll_no": "02",
       "class_id": 1,
-      "section_id": 1,
-      "phone": "+233244888999",
-      "admission_date": "2026-01-05",
+      "section_id": 2,
+      "phone": "+233583997281",
+      "admission_date": "2026-01-09",
       "status": "active"
     },
     {
       "id": 3,
-      "user_id": null,
-      "name": "Ama Serwaa",
+      "user_id": 17,
+      "name": "Fatima Sackey",
       "reg_no": "HTU2026003",
-      "roll_no": "15",
+      "roll_no": "03",
       "class_id": 1,
-      "section_id": 2,
-      "phone": "+233501234567",
+      "section_id": 1,
+      "phone": "+233527273233",
       "admission_date": "2026-01-06",
       "status": "active"
     },
     {
       "id": 4,
-      "user_id": null,
-      "name": "David Lamptey",
+      "user_id": 18,
+      "name": "Mary Hernandez",
       "reg_no": "HTU2026004",
-      "roll_no": "01",
-      "class_id": 2,
-      "section_id": 3,
-      "phone": "+233277987654",
-      "admission_date": "2026-01-06",
+      "roll_no": "04",
+      "class_id": 1,
+      "section_id": 2,
+      "phone": "+233571326765",
+      "admission_date": "2026-01-05",
       "status": "active"
     },
     {
       "id": 5,
-      "name": "Yaa Boateng",
+      "user_id": 19,
+      "name": "Annan Sackey",
       "reg_no": "HTU2026005",
       "roll_no": "05",
-      "class_id": 3,
-      "section_id": 4,
-      "phone": "+233201112223",
+      "class_id": 1,
+      "section_id": 1,
+      "phone": "+233532321324",
+      "admission_date": "2026-01-05",
+      "status": "active"
+    },
+    {
+      "id": 6,
+      "user_id": 20,
+      "name": "David Gyasi",
+      "reg_no": "HTU2026006",
+      "roll_no": "06",
+      "class_id": 1,
+      "section_id": 1,
+      "phone": "+233528973915",
+      "admission_date": "2026-01-09",
+      "status": "active"
+    },
+    {
+      "id": 7,
+      "user_id": 21,
+      "name": "Osei Mensah",
+      "reg_no": "HTU2026007",
+      "roll_no": "07",
+      "class_id": 1,
+      "section_id": 2,
+      "phone": "+233534374754",
       "admission_date": "2026-01-07",
+      "status": "active"
+    },
+    {
+      "id": 8,
+      "user_id": 22,
+      "name": "Ackon Smith",
+      "reg_no": "HTU2026008",
+      "roll_no": "08",
+      "class_id": 1,
+      "section_id": 2,
+      "phone": "+233515159166",
+      "admission_date": "2026-01-06",
+      "status": "active"
+    },
+    {
+      "id": 9,
+      "user_id": 23,
+      "name": "Amina Adusei",
+      "reg_no": "HTU2026009",
+      "roll_no": "01",
+      "class_id": 2,
+      "section_id": 3,
+      "phone": "+233594694634",
+      "admission_date": "2026-01-05",
+      "status": "active"
+    },
+    {
+      "id": 10,
+      "user_id": 24,
+      "name": "Amina Osei",
+      "reg_no": "HTU2026010",
+      "roll_no": "02",
+      "class_id": 2,
+      "section_id": 3,
+      "phone": "+233506543670",
+      "admission_date": "2026-01-05",
+      "status": "active"
+    },
+    {
+      "id": 11,
+      "user_id": 25,
+      "name": "Emmanuel Donkor",
+      "reg_no": "HTU2026011",
+      "roll_no": "03",
+      "class_id": 2,
+      "section_id": 4,
+      "phone": "+233533219824",
+      "admission_date": "2026-01-09",
+      "status": "active"
+    },
+    {
+      "id": 12,
+      "user_id": 26,
+      "name": "Daniel Davis",
+      "reg_no": "HTU2026012",
+      "roll_no": "04",
+      "class_id": 2,
+      "section_id": 4,
+      "phone": "+233564194548",
+      "admission_date": "2026-01-05",
+      "status": "active"
+    },
+    {
+      "id": 13,
+      "user_id": 27,
+      "name": "Fatima Jones",
+      "reg_no": "HTU2026013",
+      "roll_no": "05",
+      "class_id": 2,
+      "section_id": 4,
+      "phone": "+233568835373",
+      "admission_date": "2026-01-05",
+      "status": "active"
+    },
+    {
+      "id": 14,
+      "user_id": 28,
+      "name": "Esther Tetteh",
+      "reg_no": "HTU2026014",
+      "roll_no": "06",
+      "class_id": 2,
+      "section_id": 4,
+      "phone": "+233552833230",
+      "admission_date": "2026-01-06",
+      "status": "active"
+    },
+    {
+      "id": 15,
+      "user_id": 29,
+      "name": "Gyamfi Asare",
+      "reg_no": "HTU2026015",
+      "roll_no": "07",
+      "class_id": 2,
+      "section_id": 4,
+      "phone": "+233528077999",
+      "admission_date": "2026-01-06",
+      "status": "active"
+    },
+    {
+      "id": 16,
+      "user_id": 30,
+      "name": "Adu Miller",
+      "reg_no": "HTU2026016",
+      "roll_no": "08",
+      "class_id": 2,
+      "section_id": 3,
+      "phone": "+233572642635",
+      "admission_date": "2026-01-05",
+      "status": "active"
+    },
+    {
+      "id": 17,
+      "user_id": 31,
+      "name": "Esther Lopez",
+      "reg_no": "HTU2026017",
+      "roll_no": "01",
+      "class_id": 3,
+      "section_id": 5,
+      "phone": "+233533790237",
+      "admission_date": "2026-01-08",
+      "status": "active"
+    },
+    {
+      "id": 18,
+      "user_id": 32,
+      "name": "David Davis",
+      "reg_no": "HTU2026018",
+      "roll_no": "02",
+      "class_id": 3,
+      "section_id": 6,
+      "phone": "+233503762152",
+      "admission_date": "2026-01-08",
+      "status": "active"
+    },
+    {
+      "id": 19,
+      "user_id": 33,
+      "name": "Kofi Johnson",
+      "reg_no": "HTU2026019",
+      "roll_no": "03",
+      "class_id": 3,
+      "section_id": 6,
+      "phone": "+233548096887",
+      "admission_date": "2026-01-09",
+      "status": "active"
+    },
+    {
+      "id": 20,
+      "user_id": 34,
+      "name": "David Frimpong",
+      "reg_no": "HTU2026020",
+      "roll_no": "04",
+      "class_id": 3,
+      "section_id": 6,
+      "phone": "+233531981186",
+      "admission_date": "2026-01-09",
+      "status": "active"
+    },
+    {
+      "id": 21,
+      "user_id": 35,
+      "name": "Mary Osei",
+      "reg_no": "HTU2026021",
+      "roll_no": "05",
+      "class_id": 3,
+      "section_id": 5,
+      "phone": "+233508999183",
+      "admission_date": "2026-01-09",
+      "status": "active"
+    },
+    {
+      "id": 22,
+      "user_id": 36,
+      "name": "Grace Agyemang",
+      "reg_no": "HTU2026022",
+      "roll_no": "06",
+      "class_id": 3,
+      "section_id": 5,
+      "phone": "+233522149597",
+      "admission_date": "2026-01-09",
+      "status": "active"
+    },
+    {
+      "id": 23,
+      "user_id": 37,
+      "name": "Amina Donkor",
+      "reg_no": "HTU2026023",
+      "roll_no": "07",
+      "class_id": 3,
+      "section_id": 5,
+      "phone": "+233595130808",
+      "admission_date": "2026-01-09",
+      "status": "active"
+    },
+    {
+      "id": 24,
+      "user_id": 38,
+      "name": "Joseph Appiah",
+      "reg_no": "HTU2026024",
+      "roll_no": "08",
+      "class_id": 3,
+      "section_id": 5,
+      "phone": "+233569770838",
+      "admission_date": "2026-01-07",
+      "status": "active"
+    },
+    {
+      "id": 25,
+      "user_id": 39,
+      "name": "Dankwa Koomson",
+      "reg_no": "HTU2026025",
+      "roll_no": "01",
+      "class_id": 4,
+      "section_id": 8,
+      "phone": "+233535456272",
+      "admission_date": "2026-01-08",
+      "status": "active"
+    },
+    {
+      "id": 26,
+      "user_id": 40,
+      "name": "Serwaa Sackey",
+      "reg_no": "HTU2026026",
+      "roll_no": "02",
+      "class_id": 4,
+      "section_id": 8,
+      "phone": "+233511156287",
+      "admission_date": "2026-01-08",
+      "status": "active"
+    },
+    {
+      "id": 27,
+      "user_id": 41,
+      "name": "Samuel Tetteh",
+      "reg_no": "HTU2026027",
+      "roll_no": "03",
+      "class_id": 4,
+      "section_id": 7,
+      "phone": "+233585449324",
+      "admission_date": "2026-01-06",
+      "status": "active"
+    },
+    {
+      "id": 28,
+      "user_id": 42,
+      "name": "Tetteh Gyasi",
+      "reg_no": "HTU2026028",
+      "roll_no": "04",
+      "class_id": 4,
+      "section_id": 8,
+      "phone": "+233543646552",
+      "admission_date": "2026-01-08",
+      "status": "active"
+    },
+    {
+      "id": 29,
+      "user_id": 43,
+      "name": "Mary Sackey",
+      "reg_no": "HTU2026029",
+      "roll_no": "05",
+      "class_id": 4,
+      "section_id": 7,
+      "phone": "+233586022741",
+      "admission_date": "2026-01-05",
+      "status": "active"
+    },
+    {
+      "id": 30,
+      "user_id": 44,
+      "name": "Serwaa Mensah",
+      "reg_no": "HTU2026030",
+      "roll_no": "06",
+      "class_id": 4,
+      "section_id": 7,
+      "phone": "+233583607983",
+      "admission_date": "2026-01-07",
+      "status": "active"
+    },
+    {
+      "id": 31,
+      "user_id": 45,
+      "name": "Baah Koomson",
+      "reg_no": "HTU2026031",
+      "roll_no": "07",
+      "class_id": 4,
+      "section_id": 7,
+      "phone": "+233549479356",
+      "admission_date": "2026-01-08",
+      "status": "active"
+    },
+    {
+      "id": 32,
+      "user_id": 46,
+      "name": "Dankwa Osei",
+      "reg_no": "HTU2026032",
+      "roll_no": "08",
+      "class_id": 4,
+      "section_id": 8,
+      "phone": "+233541739653",
+      "admission_date": "2026-01-05",
+      "status": "active"
+    },
+    {
+      "id": 33,
+      "user_id": 47,
+      "name": "Addai Boakye",
+      "reg_no": "HTU2026033",
+      "roll_no": "01",
+      "class_id": 5,
+      "section_id": 10,
+      "phone": "+233528412769",
+      "admission_date": "2026-01-09",
+      "status": "active"
+    },
+    {
+      "id": 34,
+      "user_id": 48,
+      "name": "Mensah Mensah",
+      "reg_no": "HTU2026034",
+      "roll_no": "02",
+      "class_id": 5,
+      "section_id": 9,
+      "phone": "+233521604451",
+      "admission_date": "2026-01-07",
+      "status": "active"
+    },
+    {
+      "id": 35,
+      "user_id": 49,
+      "name": "Elizabeth Frimpong",
+      "reg_no": "HTU2026035",
+      "roll_no": "03",
+      "class_id": 5,
+      "section_id": 9,
+      "phone": "+233506171716",
+      "admission_date": "2026-01-07",
+      "status": "active"
+    },
+    {
+      "id": 36,
+      "user_id": 50,
+      "name": "Kwame Doe",
+      "reg_no": "HTU2026036",
+      "roll_no": "04",
+      "class_id": 5,
+      "section_id": 9,
+      "phone": "+233516933742",
+      "admission_date": "2026-01-09",
+      "status": "active"
+    },
+    {
+      "id": 37,
+      "user_id": 51,
+      "name": "Larbi Frimpong",
+      "reg_no": "HTU2026037",
+      "roll_no": "05",
+      "class_id": 5,
+      "section_id": 9,
+      "phone": "+233527917152",
+      "admission_date": "2026-01-05",
+      "status": "active"
+    },
+    {
+      "id": 38,
+      "user_id": 52,
+      "name": "Oppong Adusei",
+      "reg_no": "HTU2026038",
+      "roll_no": "06",
+      "class_id": 5,
+      "section_id": 9,
+      "phone": "+233543670896",
+      "admission_date": "2026-01-05",
+      "status": "active"
+    },
+    {
+      "id": 39,
+      "user_id": 53,
+      "name": "Quansah Appiah",
+      "reg_no": "HTU2026039",
+      "roll_no": "07",
+      "class_id": 5,
+      "section_id": 9,
+      "phone": "+233538722606",
+      "admission_date": "2026-01-07",
+      "status": "active"
+    },
+    {
+      "id": 40,
+      "user_id": 54,
+      "name": "Frimpong Arthur",
+      "reg_no": "HTU2026040",
+      "roll_no": "08",
+      "class_id": 5,
+      "section_id": 9,
+      "phone": "+233537685149",
+      "admission_date": "2026-01-07",
+      "status": "active"
+    },
+    {
+      "id": 41,
+      "user_id": 55,
+      "name": "Adu Gyasi",
+      "reg_no": "HTU2026041",
+      "roll_no": "01",
+      "class_id": 6,
+      "section_id": 12,
+      "phone": "+233587705490",
+      "admission_date": "2026-01-09",
+      "status": "active"
+    },
+    {
+      "id": 42,
+      "user_id": 56,
+      "name": "Addai Owusu",
+      "reg_no": "HTU2026042",
+      "roll_no": "02",
+      "class_id": 6,
+      "section_id": 12,
+      "phone": "+233525453786",
+      "admission_date": "2026-01-05",
+      "status": "active"
+    },
+    {
+      "id": 43,
+      "user_id": 57,
+      "name": "Fatima Jones",
+      "reg_no": "HTU2026043",
+      "roll_no": "03",
+      "class_id": 6,
+      "section_id": 12,
+      "phone": "+233569580255",
+      "admission_date": "2026-01-05",
+      "status": "active"
+    },
+    {
+      "id": 44,
+      "user_id": 58,
+      "name": "Quansah Asare",
+      "reg_no": "HTU2026044",
+      "roll_no": "04",
+      "class_id": 6,
+      "section_id": 11,
+      "phone": "+233561028374",
+      "admission_date": "2026-01-09",
+      "status": "active"
+    },
+    {
+      "id": 45,
+      "user_id": 59,
+      "name": "Mary Asare",
+      "reg_no": "HTU2026045",
+      "roll_no": "05",
+      "class_id": 6,
+      "section_id": 12,
+      "phone": "+233516539837",
+      "admission_date": "2026-01-09",
+      "status": "active"
+    },
+    {
+      "id": 46,
+      "user_id": 60,
+      "name": "Owusu Annan",
+      "reg_no": "HTU2026046",
+      "roll_no": "06",
+      "class_id": 6,
+      "section_id": 12,
+      "phone": "+233566472441",
+      "admission_date": "2026-01-08",
+      "status": "active"
+    },
+    {
+      "id": 47,
+      "user_id": 61,
+      "name": "Baah Boakye",
+      "reg_no": "HTU2026047",
+      "roll_no": "07",
+      "class_id": 6,
+      "section_id": 12,
+      "phone": "+233563919694",
+      "admission_date": "2026-01-09",
+      "status": "active"
+    },
+    {
+      "id": 48,
+      "user_id": 62,
+      "name": "Daniel Sackey",
+      "reg_no": "HTU2026048",
+      "roll_no": "08",
+      "class_id": 6,
+      "section_id": 11,
+      "phone": "+233545813613",
+      "admission_date": "2026-01-06",
+      "status": "active"
+    },
+    {
+      "id": 49,
+      "user_id": 63,
+      "name": "Mensah Amponsah",
+      "reg_no": "HTU2026049",
+      "roll_no": "01",
+      "class_id": 7,
+      "section_id": 14,
+      "phone": "+233574585314",
+      "admission_date": "2026-01-09",
+      "status": "active"
+    },
+    {
+      "id": 50,
+      "user_id": 64,
+      "name": "Sarah Agyemang",
+      "reg_no": "HTU2026050",
+      "roll_no": "02",
+      "class_id": 7,
+      "section_id": 13,
+      "phone": "+233549647849",
+      "admission_date": "2026-01-09",
+      "status": "active"
+    },
+    {
+      "id": 51,
+      "user_id": 65,
+      "name": "Addai Addo",
+      "reg_no": "HTU2026051",
+      "roll_no": "03",
+      "class_id": 7,
+      "section_id": 14,
+      "phone": "+233534340845",
+      "admission_date": "2026-01-06",
+      "status": "active"
+    },
+    {
+      "id": 52,
+      "user_id": 66,
+      "name": "Ama Appiah",
+      "reg_no": "HTU2026052",
+      "roll_no": "04",
+      "class_id": 7,
+      "section_id": 14,
+      "phone": "+233592221854",
+      "admission_date": "2026-01-08",
+      "status": "active"
+    },
+    {
+      "id": 53,
+      "user_id": 67,
+      "name": "Larbi Asare",
+      "reg_no": "HTU2026053",
+      "roll_no": "05",
+      "class_id": 7,
+      "section_id": 14,
+      "phone": "+233577705062",
+      "admission_date": "2026-01-06",
+      "status": "active"
+    },
+    {
+      "id": 54,
+      "user_id": 68,
+      "name": "Boateng Mensah",
+      "reg_no": "HTU2026054",
+      "roll_no": "06",
+      "class_id": 7,
+      "section_id": 14,
+      "phone": "+233533950888",
+      "admission_date": "2026-01-09",
+      "status": "active"
+    },
+    {
+      "id": 55,
+      "user_id": 69,
+      "name": "John Osei",
+      "reg_no": "HTU2026055",
+      "roll_no": "07",
+      "class_id": 7,
+      "section_id": 13,
+      "phone": "+233518658158",
+      "admission_date": "2026-01-06",
+      "status": "active"
+    },
+    {
+      "id": 56,
+      "user_id": 70,
+      "name": "John Hernandez",
+      "reg_no": "HTU2026056",
+      "roll_no": "08",
+      "class_id": 7,
+      "section_id": 14,
+      "phone": "+233579468772",
+      "admission_date": "2026-01-08",
+      "status": "active"
+    },
+    {
+      "id": 57,
+      "user_id": 71,
+      "name": "Michael Garcia",
+      "reg_no": "HTU2026057",
+      "roll_no": "01",
+      "class_id": 8,
+      "section_id": 16,
+      "phone": "+233575348512",
+      "admission_date": "2026-01-06",
+      "status": "active"
+    },
+    {
+      "id": 58,
+      "user_id": 72,
+      "name": "Stephen Quaye",
+      "reg_no": "HTU2026058",
+      "roll_no": "02",
+      "class_id": 8,
+      "section_id": 16,
+      "phone": "+233535606980",
+      "admission_date": "2026-01-08",
+      "status": "active"
+    },
+    {
+      "id": 59,
+      "user_id": 73,
+      "name": "Amina Sowah",
+      "reg_no": "HTU2026059",
+      "roll_no": "03",
+      "class_id": 8,
+      "section_id": 16,
+      "phone": "+233556363836",
+      "admission_date": "2026-01-09",
+      "status": "active"
+    },
+    {
+      "id": 60,
+      "user_id": 74,
+      "name": "Abdul Boakye",
+      "reg_no": "HTU2026060",
+      "roll_no": "04",
+      "class_id": 8,
+      "section_id": 15,
+      "phone": "+233563563646",
+      "admission_date": "2026-01-06",
+      "status": "active"
+    },
+    {
+      "id": 61,
+      "user_id": 75,
+      "name": "Amina Brown",
+      "reg_no": "HTU2026061",
+      "roll_no": "05",
+      "class_id": 8,
+      "section_id": 16,
+      "phone": "+233588816912",
+      "admission_date": "2026-01-08",
+      "status": "active"
+    },
+    {
+      "id": 62,
+      "user_id": 76,
+      "name": "Yaw Koomson",
+      "reg_no": "HTU2026062",
+      "roll_no": "06",
+      "class_id": 8,
+      "section_id": 16,
+      "phone": "+233591327691",
+      "admission_date": "2026-01-09",
+      "status": "active"
+    },
+    {
+      "id": 63,
+      "user_id": 77,
+      "name": "Quansah Davis",
+      "reg_no": "HTU2026063",
+      "roll_no": "07",
+      "class_id": 8,
+      "section_id": 16,
+      "phone": "+233547542890",
+      "admission_date": "2026-01-08",
+      "status": "active"
+    },
+    {
+      "id": 64,
+      "user_id": 78,
+      "name": "Mary Lopez",
+      "reg_no": "HTU2026064",
+      "roll_no": "08",
+      "class_id": 8,
+      "section_id": 15,
+      "phone": "+233574681284",
+      "admission_date": "2026-01-07",
+      "status": "active"
+    },
+    {
+      "id": 65,
+      "user_id": 79,
+      "name": "Mensah Rodriguez",
+      "reg_no": "HTU2026065",
+      "roll_no": "01",
+      "class_id": 9,
+      "section_id": 18,
+      "phone": "+233557783308",
+      "admission_date": "2026-01-06",
+      "status": "active"
+    },
+    {
+      "id": 66,
+      "user_id": 80,
+      "name": "John Boakye",
+      "reg_no": "HTU2026066",
+      "roll_no": "02",
+      "class_id": 9,
+      "section_id": 17,
+      "phone": "+233561454696",
+      "admission_date": "2026-01-05",
+      "status": "active"
+    },
+    {
+      "id": 67,
+      "user_id": 81,
+      "name": "Esther Jones",
+      "reg_no": "HTU2026067",
+      "roll_no": "03",
+      "class_id": 9,
+      "section_id": 18,
+      "phone": "+233521843636",
+      "admission_date": "2026-01-07",
+      "status": "active"
+    },
+    {
+      "id": 68,
+      "user_id": 82,
+      "name": "Quansah Amponsah",
+      "reg_no": "HTU2026068",
+      "roll_no": "04",
+      "class_id": 9,
+      "section_id": 18,
+      "phone": "+233556662319",
+      "admission_date": "2026-01-08",
+      "status": "active"
+    },
+    {
+      "id": 69,
+      "user_id": 83,
+      "name": "Adu Brown",
+      "reg_no": "HTU2026069",
+      "roll_no": "05",
+      "class_id": 9,
+      "section_id": 17,
+      "phone": "+233571325197",
+      "admission_date": "2026-01-09",
+      "status": "active"
+    },
+    {
+      "id": 70,
+      "user_id": 84,
+      "name": "Yaw Doe",
+      "reg_no": "HTU2026070",
+      "roll_no": "06",
+      "class_id": 9,
+      "section_id": 17,
+      "phone": "+233501520596",
+      "admission_date": "2026-01-06",
+      "status": "active"
+    },
+    {
+      "id": 71,
+      "user_id": 85,
+      "name": "Gyamfi Owusu",
+      "reg_no": "HTU2026071",
+      "roll_no": "07",
+      "class_id": 9,
+      "section_id": 17,
+      "phone": "+233533117636",
+      "admission_date": "2026-01-08",
+      "status": "active"
+    },
+    {
+      "id": 72,
+      "user_id": 86,
+      "name": "Mensah Koomson",
+      "reg_no": "HTU2026072",
+      "roll_no": "08",
+      "class_id": 9,
+      "section_id": 18,
+      "phone": "+233553815034",
+      "admission_date": "2026-01-09",
       "status": "active"
     }
   ],
@@ -186,17 +1974,2447 @@
     {
       "id": 1,
       "student_id": 1,
-      "subject_id": 1,
+      "subject_id": 2,
       "exam_id": 1,
-      "class_work_score": 25,
-      "exam_score": 60,
-      "total_score": 85,
-      "grade": "A"
+      "class_work_score": 15,
+      "exam_score": 49,
+      "total_score": 64,
+      "grade": "C"
     },
     {
       "id": 2,
       "student_id": 1,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 27,
+      "exam_score": 55,
+      "total_score": 82,
+      "grade": "A"
+    },
+    {
+      "id": 3,
+      "student_id": 1,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 21,
+      "exam_score": 34,
+      "total_score": 55,
+      "grade": "D"
+    },
+    {
+      "id": 4,
+      "student_id": 1,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 22,
+      "exam_score": 36,
+      "total_score": 58,
+      "grade": "D"
+    },
+    {
+      "id": 5,
+      "student_id": 1,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 24,
+      "exam_score": 68,
+      "total_score": 92,
+      "grade": "A"
+    },
+    {
+      "id": 6,
+      "student_id": 2,
       "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 28,
+      "exam_score": 53,
+      "total_score": 81,
+      "grade": "A"
+    },
+    {
+      "id": 7,
+      "student_id": 2,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 17,
+      "exam_score": 62,
+      "total_score": 79,
+      "grade": "B+"
+    },
+    {
+      "id": 8,
+      "student_id": 2,
+      "subject_id": 5,
+      "exam_id": 1,
+      "class_work_score": 25,
+      "exam_score": 30,
+      "total_score": 55,
+      "grade": "D"
+    },
+    {
+      "id": 9,
+      "student_id": 2,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 28,
+      "exam_score": 61,
+      "total_score": 89,
+      "grade": "A"
+    },
+    {
+      "id": 10,
+      "student_id": 2,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 18,
+      "exam_score": 57,
+      "total_score": 75,
+      "grade": "B+"
+    },
+    {
+      "id": 11,
+      "student_id": 3,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 20,
+      "exam_score": 63,
+      "total_score": 83,
+      "grade": "A"
+    },
+    {
+      "id": 12,
+      "student_id": 3,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 23,
+      "exam_score": 69,
+      "total_score": 92,
+      "grade": "A"
+    },
+    {
+      "id": 13,
+      "student_id": 3,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 30,
+      "exam_score": 59,
+      "total_score": 89,
+      "grade": "A"
+    },
+    {
+      "id": 14,
+      "student_id": 3,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 28,
+      "exam_score": 67,
+      "total_score": 95,
+      "grade": "A"
+    },
+    {
+      "id": 15,
+      "student_id": 3,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 23,
+      "exam_score": 50,
+      "total_score": 73,
+      "grade": "B"
+    },
+    {
+      "id": 16,
+      "student_id": 4,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 22,
+      "exam_score": 59,
+      "total_score": 81,
+      "grade": "A"
+    },
+    {
+      "id": 17,
+      "student_id": 4,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 27,
+      "exam_score": 51,
+      "total_score": 78,
+      "grade": "B+"
+    },
+    {
+      "id": 18,
+      "student_id": 4,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 15,
+      "exam_score": 61,
+      "total_score": 76,
+      "grade": "B+"
+    },
+    {
+      "id": 19,
+      "student_id": 4,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 25,
+      "exam_score": 41,
+      "total_score": 66,
+      "grade": "C+"
+    },
+    {
+      "id": 20,
+      "student_id": 4,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 30,
+      "exam_score": 43,
+      "total_score": 73,
+      "grade": "B"
+    },
+    {
+      "id": 21,
+      "student_id": 5,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 23,
+      "exam_score": 65,
+      "total_score": 88,
+      "grade": "A"
+    },
+    {
+      "id": 22,
+      "student_id": 5,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 15,
+      "exam_score": 63,
+      "total_score": 78,
+      "grade": "B+"
+    },
+    {
+      "id": 23,
+      "student_id": 5,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 21,
+      "exam_score": 35,
+      "total_score": 56,
+      "grade": "D"
+    },
+    {
+      "id": 24,
+      "student_id": 5,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 22,
+      "exam_score": 56,
+      "total_score": 78,
+      "grade": "B+"
+    },
+    {
+      "id": 25,
+      "student_id": 5,
+      "subject_id": 5,
+      "exam_id": 1,
+      "class_work_score": 30,
+      "exam_score": 65,
+      "total_score": 95,
+      "grade": "A"
+    },
+    {
+      "id": 26,
+      "student_id": 6,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 15,
+      "exam_score": 35,
+      "total_score": 50,
+      "grade": "D"
+    },
+    {
+      "id": 27,
+      "student_id": 6,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 24,
+      "exam_score": 44,
+      "total_score": 68,
+      "grade": "C+"
+    },
+    {
+      "id": 28,
+      "student_id": 6,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 27,
+      "exam_score": 45,
+      "total_score": 72,
+      "grade": "B"
+    },
+    {
+      "id": 29,
+      "student_id": 6,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 24,
+      "exam_score": 67,
+      "total_score": 91,
+      "grade": "A"
+    },
+    {
+      "id": 30,
+      "student_id": 6,
+      "subject_id": 5,
+      "exam_id": 1,
+      "class_work_score": 26,
+      "exam_score": 60,
+      "total_score": 86,
+      "grade": "A"
+    },
+    {
+      "id": 31,
+      "student_id": 7,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 26,
+      "exam_score": 59,
+      "total_score": 85,
+      "grade": "A"
+    },
+    {
+      "id": 32,
+      "student_id": 7,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 23,
+      "exam_score": 49,
+      "total_score": 72,
+      "grade": "B"
+    },
+    {
+      "id": 33,
+      "student_id": 7,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 23,
+      "exam_score": 44,
+      "total_score": 67,
+      "grade": "C+"
+    },
+    {
+      "id": 34,
+      "student_id": 7,
+      "subject_id": 5,
+      "exam_id": 1,
+      "class_work_score": 18,
+      "exam_score": 42,
+      "total_score": 60,
+      "grade": "C"
+    },
+    {
+      "id": 35,
+      "student_id": 7,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 25,
+      "exam_score": 37,
+      "total_score": 62,
+      "grade": "C"
+    },
+    {
+      "id": 36,
+      "student_id": 8,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 24,
+      "exam_score": 36,
+      "total_score": 60,
+      "grade": "C"
+    },
+    {
+      "id": 37,
+      "student_id": 8,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 21,
+      "exam_score": 48,
+      "total_score": 69,
+      "grade": "C+"
+    },
+    {
+      "id": 38,
+      "student_id": 8,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 22,
+      "exam_score": 53,
+      "total_score": 75,
+      "grade": "B+"
+    },
+    {
+      "id": 39,
+      "student_id": 8,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 20,
+      "exam_score": 49,
+      "total_score": 69,
+      "grade": "C+"
+    },
+    {
+      "id": 40,
+      "student_id": 8,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 15,
+      "exam_score": 64,
+      "total_score": 79,
+      "grade": "B+"
+    },
+    {
+      "id": 41,
+      "student_id": 9,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 19,
+      "exam_score": 70,
+      "total_score": 89,
+      "grade": "A"
+    },
+    {
+      "id": 42,
+      "student_id": 9,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 30,
+      "exam_score": 36,
+      "total_score": 66,
+      "grade": "C+"
+    },
+    {
+      "id": 43,
+      "student_id": 9,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 15,
+      "exam_score": 66,
+      "total_score": 81,
+      "grade": "A"
+    },
+    {
+      "id": 44,
+      "student_id": 9,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 24,
+      "exam_score": 60,
+      "total_score": 84,
+      "grade": "A"
+    },
+    {
+      "id": 45,
+      "student_id": 9,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 30,
+      "exam_score": 58,
+      "total_score": 88,
+      "grade": "A"
+    },
+    {
+      "id": 46,
+      "student_id": 10,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 18,
+      "exam_score": 34,
+      "total_score": 52,
+      "grade": "D"
+    },
+    {
+      "id": 47,
+      "student_id": 10,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 27,
+      "exam_score": 61,
+      "total_score": 88,
+      "grade": "A"
+    },
+    {
+      "id": 48,
+      "student_id": 10,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 17,
+      "exam_score": 66,
+      "total_score": 83,
+      "grade": "A"
+    },
+    {
+      "id": 49,
+      "student_id": 10,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 16,
+      "exam_score": 39,
+      "total_score": 55,
+      "grade": "D"
+    },
+    {
+      "id": 50,
+      "student_id": 10,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 19,
+      "exam_score": 66,
+      "total_score": 85,
+      "grade": "A"
+    },
+    {
+      "id": 51,
+      "student_id": 11,
+      "subject_id": 5,
+      "exam_id": 1,
+      "class_work_score": 22,
+      "exam_score": 63,
+      "total_score": 85,
+      "grade": "A"
+    },
+    {
+      "id": 52,
+      "student_id": 11,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 27,
+      "exam_score": 58,
+      "total_score": 85,
+      "grade": "A"
+    },
+    {
+      "id": 53,
+      "student_id": 11,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 29,
+      "exam_score": 49,
+      "total_score": 78,
+      "grade": "B+"
+    },
+    {
+      "id": 54,
+      "student_id": 11,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 28,
+      "exam_score": 49,
+      "total_score": 77,
+      "grade": "B+"
+    },
+    {
+      "id": 55,
+      "student_id": 11,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 16,
+      "exam_score": 69,
+      "total_score": 85,
+      "grade": "A"
+    },
+    {
+      "id": 56,
+      "student_id": 12,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 17,
+      "exam_score": 40,
+      "total_score": 57,
+      "grade": "D"
+    },
+    {
+      "id": 57,
+      "student_id": 12,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 22,
+      "exam_score": 41,
+      "total_score": 63,
+      "grade": "C"
+    },
+    {
+      "id": 58,
+      "student_id": 12,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 17,
+      "exam_score": 40,
+      "total_score": 57,
+      "grade": "D"
+    },
+    {
+      "id": 59,
+      "student_id": 12,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 15,
+      "exam_score": 56,
+      "total_score": 71,
+      "grade": "B"
+    },
+    {
+      "id": 60,
+      "student_id": 12,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 29,
+      "exam_score": 68,
+      "total_score": 97,
+      "grade": "A"
+    },
+    {
+      "id": 61,
+      "student_id": 13,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 24,
+      "exam_score": 59,
+      "total_score": 83,
+      "grade": "A"
+    },
+    {
+      "id": 62,
+      "student_id": 13,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 17,
+      "exam_score": 44,
+      "total_score": 61,
+      "grade": "C"
+    },
+    {
+      "id": 63,
+      "student_id": 13,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 23,
+      "exam_score": 70,
+      "total_score": 93,
+      "grade": "A"
+    },
+    {
+      "id": 64,
+      "student_id": 13,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 21,
+      "exam_score": 57,
+      "total_score": 78,
+      "grade": "B+"
+    },
+    {
+      "id": 65,
+      "student_id": 13,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 18,
+      "exam_score": 64,
+      "total_score": 82,
+      "grade": "A"
+    },
+    {
+      "id": 66,
+      "student_id": 14,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 17,
+      "exam_score": 33,
+      "total_score": 50,
+      "grade": "D"
+    },
+    {
+      "id": 67,
+      "student_id": 14,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 20,
+      "exam_score": 49,
+      "total_score": 69,
+      "grade": "C+"
+    },
+    {
+      "id": 68,
+      "student_id": 14,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 24,
+      "exam_score": 58,
+      "total_score": 82,
+      "grade": "A"
+    },
+    {
+      "id": 69,
+      "student_id": 14,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 18,
+      "exam_score": 59,
+      "total_score": 77,
+      "grade": "B+"
+    },
+    {
+      "id": 70,
+      "student_id": 14,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 24,
+      "exam_score": 55,
+      "total_score": 79,
+      "grade": "B+"
+    },
+    {
+      "id": 71,
+      "student_id": 15,
+      "subject_id": 5,
+      "exam_id": 1,
+      "class_work_score": 17,
+      "exam_score": 68,
+      "total_score": 85,
+      "grade": "A"
+    },
+    {
+      "id": 72,
+      "student_id": 15,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 16,
+      "exam_score": 57,
+      "total_score": 73,
+      "grade": "B"
+    },
+    {
+      "id": 73,
+      "student_id": 15,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 25,
+      "exam_score": 68,
+      "total_score": 93,
+      "grade": "A"
+    },
+    {
+      "id": 74,
+      "student_id": 15,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 23,
+      "exam_score": 31,
+      "total_score": 54,
+      "grade": "D"
+    },
+    {
+      "id": 75,
+      "student_id": 15,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 17,
+      "exam_score": 44,
+      "total_score": 61,
+      "grade": "C"
+    },
+    {
+      "id": 76,
+      "student_id": 16,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 20,
+      "exam_score": 60,
+      "total_score": 80,
+      "grade": "A"
+    },
+    {
+      "id": 77,
+      "student_id": 16,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 29,
+      "exam_score": 47,
+      "total_score": 76,
+      "grade": "B+"
+    },
+    {
+      "id": 78,
+      "student_id": 16,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 20,
+      "exam_score": 67,
+      "total_score": 87,
+      "grade": "A"
+    },
+    {
+      "id": 79,
+      "student_id": 16,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 28,
+      "exam_score": 70,
+      "total_score": 98,
+      "grade": "A"
+    },
+    {
+      "id": 80,
+      "student_id": 16,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 30,
+      "exam_score": 35,
+      "total_score": 65,
+      "grade": "C+"
+    },
+    {
+      "id": 81,
+      "student_id": 17,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 18,
+      "exam_score": 40,
+      "total_score": 58,
+      "grade": "D"
+    },
+    {
+      "id": 82,
+      "student_id": 17,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 25,
+      "exam_score": 56,
+      "total_score": 81,
+      "grade": "A"
+    },
+    {
+      "id": 83,
+      "student_id": 17,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 30,
+      "exam_score": 48,
+      "total_score": 78,
+      "grade": "B+"
+    },
+    {
+      "id": 84,
+      "student_id": 17,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 27,
+      "exam_score": 65,
+      "total_score": 92,
+      "grade": "A"
+    },
+    {
+      "id": 85,
+      "student_id": 17,
+      "subject_id": 5,
+      "exam_id": 1,
+      "class_work_score": 16,
+      "exam_score": 59,
+      "total_score": 75,
+      "grade": "B+"
+    },
+    {
+      "id": 86,
+      "student_id": 18,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 27,
+      "exam_score": 62,
+      "total_score": 89,
+      "grade": "A"
+    },
+    {
+      "id": 87,
+      "student_id": 18,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 15,
+      "exam_score": 64,
+      "total_score": 79,
+      "grade": "B+"
+    },
+    {
+      "id": 88,
+      "student_id": 18,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 29,
+      "exam_score": 56,
+      "total_score": 85,
+      "grade": "A"
+    },
+    {
+      "id": 89,
+      "student_id": 18,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 16,
+      "exam_score": 42,
+      "total_score": 58,
+      "grade": "D"
+    },
+    {
+      "id": 90,
+      "student_id": 18,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 26,
+      "exam_score": 69,
+      "total_score": 95,
+      "grade": "A"
+    },
+    {
+      "id": 91,
+      "student_id": 19,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 23,
+      "exam_score": 65,
+      "total_score": 88,
+      "grade": "A"
+    },
+    {
+      "id": 92,
+      "student_id": 19,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 19,
+      "exam_score": 48,
+      "total_score": 67,
+      "grade": "C+"
+    },
+    {
+      "id": 93,
+      "student_id": 19,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 29,
+      "exam_score": 61,
+      "total_score": 90,
+      "grade": "A"
+    },
+    {
+      "id": 94,
+      "student_id": 19,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 18,
+      "exam_score": 31,
+      "total_score": 49,
+      "grade": "F"
+    },
+    {
+      "id": 95,
+      "student_id": 19,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 22,
+      "exam_score": 40,
+      "total_score": 62,
+      "grade": "C"
+    },
+    {
+      "id": 96,
+      "student_id": 20,
+      "subject_id": 5,
+      "exam_id": 1,
+      "class_work_score": 17,
+      "exam_score": 44,
+      "total_score": 61,
+      "grade": "C"
+    },
+    {
+      "id": 97,
+      "student_id": 20,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 18,
+      "exam_score": 59,
+      "total_score": 77,
+      "grade": "B+"
+    },
+    {
+      "id": 98,
+      "student_id": 20,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 18,
+      "exam_score": 39,
+      "total_score": 57,
+      "grade": "D"
+    },
+    {
+      "id": 99,
+      "student_id": 20,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 30,
+      "exam_score": 48,
+      "total_score": 78,
+      "grade": "B+"
+    },
+    {
+      "id": 100,
+      "student_id": 20,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 23,
+      "exam_score": 56,
+      "total_score": 79,
+      "grade": "B+"
+    },
+    {
+      "id": 101,
+      "student_id": 21,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 27,
+      "exam_score": 42,
+      "total_score": 69,
+      "grade": "C+"
+    },
+    {
+      "id": 102,
+      "student_id": 21,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 19,
+      "exam_score": 34,
+      "total_score": 53,
+      "grade": "D"
+    },
+    {
+      "id": 103,
+      "student_id": 21,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 23,
+      "exam_score": 56,
+      "total_score": 79,
+      "grade": "B+"
+    },
+    {
+      "id": 104,
+      "student_id": 21,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 25,
+      "exam_score": 62,
+      "total_score": 87,
+      "grade": "A"
+    },
+    {
+      "id": 105,
+      "student_id": 21,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 23,
+      "exam_score": 30,
+      "total_score": 53,
+      "grade": "D"
+    },
+    {
+      "id": 106,
+      "student_id": 22,
+      "subject_id": 5,
+      "exam_id": 1,
+      "class_work_score": 19,
+      "exam_score": 58,
+      "total_score": 77,
+      "grade": "B+"
+    },
+    {
+      "id": 107,
+      "student_id": 22,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 30,
+      "exam_score": 52,
+      "total_score": 82,
+      "grade": "A"
+    },
+    {
+      "id": 108,
+      "student_id": 22,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 25,
+      "exam_score": 65,
+      "total_score": 90,
+      "grade": "A"
+    },
+    {
+      "id": 109,
+      "student_id": 22,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 27,
+      "exam_score": 59,
+      "total_score": 86,
+      "grade": "A"
+    },
+    {
+      "id": 110,
+      "student_id": 22,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 25,
+      "exam_score": 42,
+      "total_score": 67,
+      "grade": "C+"
+    },
+    {
+      "id": 111,
+      "student_id": 23,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 16,
+      "exam_score": 50,
+      "total_score": 66,
+      "grade": "C+"
+    },
+    {
+      "id": 112,
+      "student_id": 23,
+      "subject_id": 5,
+      "exam_id": 1,
+      "class_work_score": 30,
+      "exam_score": 54,
+      "total_score": 84,
+      "grade": "A"
+    },
+    {
+      "id": 113,
+      "student_id": 23,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 27,
+      "exam_score": 39,
+      "total_score": 66,
+      "grade": "C+"
+    },
+    {
+      "id": 114,
+      "student_id": 23,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 30,
+      "exam_score": 32,
+      "total_score": 62,
+      "grade": "C"
+    },
+    {
+      "id": 115,
+      "student_id": 23,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 19,
+      "exam_score": 62,
+      "total_score": 81,
+      "grade": "A"
+    },
+    {
+      "id": 116,
+      "student_id": 24,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 29,
+      "exam_score": 30,
+      "total_score": 59,
+      "grade": "D"
+    },
+    {
+      "id": 117,
+      "student_id": 24,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 19,
+      "exam_score": 56,
+      "total_score": 75,
+      "grade": "B+"
+    },
+    {
+      "id": 118,
+      "student_id": 24,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 19,
+      "exam_score": 34,
+      "total_score": 53,
+      "grade": "D"
+    },
+    {
+      "id": 119,
+      "student_id": 24,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 30,
+      "exam_score": 46,
+      "total_score": 76,
+      "grade": "B+"
+    },
+    {
+      "id": 120,
+      "student_id": 24,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 25,
+      "exam_score": 69,
+      "total_score": 94,
+      "grade": "A"
+    },
+    {
+      "id": 121,
+      "student_id": 25,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 25,
+      "exam_score": 70,
+      "total_score": 95,
+      "grade": "A"
+    },
+    {
+      "id": 122,
+      "student_id": 25,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 30,
+      "exam_score": 64,
+      "total_score": 94,
+      "grade": "A"
+    },
+    {
+      "id": 123,
+      "student_id": 25,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 16,
+      "exam_score": 69,
+      "total_score": 85,
+      "grade": "A"
+    },
+    {
+      "id": 124,
+      "student_id": 25,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 17,
+      "exam_score": 45,
+      "total_score": 62,
+      "grade": "C"
+    },
+    {
+      "id": 125,
+      "student_id": 25,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 24,
+      "exam_score": 44,
+      "total_score": 68,
+      "grade": "C+"
+    },
+    {
+      "id": 126,
+      "student_id": 26,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 20,
+      "exam_score": 49,
+      "total_score": 69,
+      "grade": "C+"
+    },
+    {
+      "id": 127,
+      "student_id": 26,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 15,
+      "exam_score": 32,
+      "total_score": 47,
+      "grade": "F"
+    },
+    {
+      "id": 128,
+      "student_id": 26,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 25,
+      "exam_score": 33,
+      "total_score": 58,
+      "grade": "D"
+    },
+    {
+      "id": 129,
+      "student_id": 26,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 24,
+      "exam_score": 52,
+      "total_score": 76,
+      "grade": "B+"
+    },
+    {
+      "id": 130,
+      "student_id": 26,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 26,
+      "exam_score": 57,
+      "total_score": 83,
+      "grade": "A"
+    },
+    {
+      "id": 131,
+      "student_id": 27,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 20,
+      "exam_score": 41,
+      "total_score": 61,
+      "grade": "C"
+    },
+    {
+      "id": 132,
+      "student_id": 27,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 17,
+      "exam_score": 69,
+      "total_score": 86,
+      "grade": "A"
+    },
+    {
+      "id": 133,
+      "student_id": 27,
+      "subject_id": 5,
+      "exam_id": 1,
+      "class_work_score": 27,
+      "exam_score": 69,
+      "total_score": 96,
+      "grade": "A"
+    },
+    {
+      "id": 134,
+      "student_id": 27,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 22,
+      "exam_score": 61,
+      "total_score": 83,
+      "grade": "A"
+    },
+    {
+      "id": 135,
+      "student_id": 27,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 19,
+      "exam_score": 44,
+      "total_score": 63,
+      "grade": "C"
+    },
+    {
+      "id": 136,
+      "student_id": 28,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 15,
+      "exam_score": 59,
+      "total_score": 74,
+      "grade": "B"
+    },
+    {
+      "id": 137,
+      "student_id": 28,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 24,
+      "exam_score": 64,
+      "total_score": 88,
+      "grade": "A"
+    },
+    {
+      "id": 138,
+      "student_id": 28,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 20,
+      "exam_score": 34,
+      "total_score": 54,
+      "grade": "D"
+    },
+    {
+      "id": 139,
+      "student_id": 28,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 29,
+      "exam_score": 52,
+      "total_score": 81,
+      "grade": "A"
+    },
+    {
+      "id": 140,
+      "student_id": 28,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 24,
+      "exam_score": 70,
+      "total_score": 94,
+      "grade": "A"
+    },
+    {
+      "id": 141,
+      "student_id": 29,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 21,
+      "exam_score": 54,
+      "total_score": 75,
+      "grade": "B+"
+    },
+    {
+      "id": 142,
+      "student_id": 29,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 30,
+      "exam_score": 36,
+      "total_score": 66,
+      "grade": "C+"
+    },
+    {
+      "id": 143,
+      "student_id": 29,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 22,
+      "exam_score": 54,
+      "total_score": 76,
+      "grade": "B+"
+    },
+    {
+      "id": 144,
+      "student_id": 29,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 26,
+      "exam_score": 66,
+      "total_score": 92,
+      "grade": "A"
+    },
+    {
+      "id": 145,
+      "student_id": 29,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 24,
+      "exam_score": 48,
+      "total_score": 72,
+      "grade": "B"
+    },
+    {
+      "id": 146,
+      "student_id": 30,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 15,
+      "exam_score": 66,
+      "total_score": 81,
+      "grade": "A"
+    },
+    {
+      "id": 147,
+      "student_id": 30,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 16,
+      "exam_score": 68,
+      "total_score": 84,
+      "grade": "A"
+    },
+    {
+      "id": 148,
+      "student_id": 30,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 30,
+      "exam_score": 48,
+      "total_score": 78,
+      "grade": "B+"
+    },
+    {
+      "id": 149,
+      "student_id": 30,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 22,
+      "exam_score": 68,
+      "total_score": 90,
+      "grade": "A"
+    },
+    {
+      "id": 150,
+      "student_id": 30,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 26,
+      "exam_score": 44,
+      "total_score": 70,
+      "grade": "B"
+    },
+    {
+      "id": 151,
+      "student_id": 31,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 16,
+      "exam_score": 49,
+      "total_score": 65,
+      "grade": "C+"
+    },
+    {
+      "id": 152,
+      "student_id": 31,
+      "subject_id": 5,
+      "exam_id": 1,
+      "class_work_score": 29,
+      "exam_score": 32,
+      "total_score": 61,
+      "grade": "C"
+    },
+    {
+      "id": 153,
+      "student_id": 31,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 26,
+      "exam_score": 38,
+      "total_score": 64,
+      "grade": "C"
+    },
+    {
+      "id": 154,
+      "student_id": 31,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 17,
+      "exam_score": 48,
+      "total_score": 65,
+      "grade": "C+"
+    },
+    {
+      "id": 155,
+      "student_id": 31,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 25,
+      "exam_score": 56,
+      "total_score": 81,
+      "grade": "A"
+    },
+    {
+      "id": 156,
+      "student_id": 32,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 23,
+      "exam_score": 40,
+      "total_score": 63,
+      "grade": "C"
+    },
+    {
+      "id": 157,
+      "student_id": 32,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 23,
+      "exam_score": 60,
+      "total_score": 83,
+      "grade": "A"
+    },
+    {
+      "id": 158,
+      "student_id": 32,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 24,
+      "exam_score": 51,
+      "total_score": 75,
+      "grade": "B+"
+    },
+    {
+      "id": 159,
+      "student_id": 32,
+      "subject_id": 5,
+      "exam_id": 1,
+      "class_work_score": 18,
+      "exam_score": 59,
+      "total_score": 77,
+      "grade": "B+"
+    },
+    {
+      "id": 160,
+      "student_id": 32,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 17,
+      "exam_score": 39,
+      "total_score": 56,
+      "grade": "D"
+    },
+    {
+      "id": 161,
+      "student_id": 33,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 17,
+      "exam_score": 55,
+      "total_score": 72,
+      "grade": "B"
+    },
+    {
+      "id": 162,
+      "student_id": 33,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 15,
+      "exam_score": 46,
+      "total_score": 61,
+      "grade": "C"
+    },
+    {
+      "id": 163,
+      "student_id": 33,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 18,
+      "exam_score": 59,
+      "total_score": 77,
+      "grade": "B+"
+    },
+    {
+      "id": 164,
+      "student_id": 33,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 26,
+      "exam_score": 46,
+      "total_score": 72,
+      "grade": "B"
+    },
+    {
+      "id": 165,
+      "student_id": 33,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 27,
+      "exam_score": 70,
+      "total_score": 97,
+      "grade": "A"
+    },
+    {
+      "id": 166,
+      "student_id": 34,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 15,
+      "exam_score": 69,
+      "total_score": 84,
+      "grade": "A"
+    },
+    {
+      "id": 167,
+      "student_id": 34,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 25,
+      "exam_score": 69,
+      "total_score": 94,
+      "grade": "A"
+    },
+    {
+      "id": 168,
+      "student_id": 34,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 22,
+      "exam_score": 34,
+      "total_score": 56,
+      "grade": "D"
+    },
+    {
+      "id": 169,
+      "student_id": 34,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 29,
+      "exam_score": 49,
+      "total_score": 78,
+      "grade": "B+"
+    },
+    {
+      "id": 170,
+      "student_id": 34,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 28,
+      "exam_score": 37,
+      "total_score": 65,
+      "grade": "C+"
+    },
+    {
+      "id": 171,
+      "student_id": 35,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 18,
+      "exam_score": 36,
+      "total_score": 54,
+      "grade": "D"
+    },
+    {
+      "id": 172,
+      "student_id": 35,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 22,
+      "exam_score": 64,
+      "total_score": 86,
+      "grade": "A"
+    },
+    {
+      "id": 173,
+      "student_id": 35,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 19,
+      "exam_score": 54,
+      "total_score": 73,
+      "grade": "B"
+    },
+    {
+      "id": 174,
+      "student_id": 35,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 29,
+      "exam_score": 53,
+      "total_score": 82,
+      "grade": "A"
+    },
+    {
+      "id": 175,
+      "student_id": 35,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 28,
+      "exam_score": 67,
+      "total_score": 95,
+      "grade": "A"
+    },
+    {
+      "id": 176,
+      "student_id": 36,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 28,
+      "exam_score": 47,
+      "total_score": 75,
+      "grade": "B+"
+    },
+    {
+      "id": 177,
+      "student_id": 36,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 16,
+      "exam_score": 53,
+      "total_score": 69,
+      "grade": "C+"
+    },
+    {
+      "id": 178,
+      "student_id": 36,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 21,
+      "exam_score": 58,
+      "total_score": 79,
+      "grade": "B+"
+    },
+    {
+      "id": 179,
+      "student_id": 36,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 29,
+      "exam_score": 45,
+      "total_score": 74,
+      "grade": "B"
+    },
+    {
+      "id": 180,
+      "student_id": 36,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 26,
+      "exam_score": 36,
+      "total_score": 62,
+      "grade": "C"
+    },
+    {
+      "id": 181,
+      "student_id": 37,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 27,
+      "exam_score": 47,
+      "total_score": 74,
+      "grade": "B"
+    },
+    {
+      "id": 182,
+      "student_id": 37,
+      "subject_id": 5,
+      "exam_id": 1,
+      "class_work_score": 21,
+      "exam_score": 37,
+      "total_score": 58,
+      "grade": "D"
+    },
+    {
+      "id": 183,
+      "student_id": 37,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 29,
+      "exam_score": 35,
+      "total_score": 64,
+      "grade": "C"
+    },
+    {
+      "id": 184,
+      "student_id": 37,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 21,
+      "exam_score": 70,
+      "total_score": 91,
+      "grade": "A"
+    },
+    {
+      "id": 185,
+      "student_id": 37,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 15,
+      "exam_score": 33,
+      "total_score": 48,
+      "grade": "F"
+    },
+    {
+      "id": 186,
+      "student_id": 38,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 17,
+      "exam_score": 65,
+      "total_score": 82,
+      "grade": "A"
+    },
+    {
+      "id": 187,
+      "student_id": 38,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 21,
+      "exam_score": 67,
+      "total_score": 88,
+      "grade": "A"
+    },
+    {
+      "id": 188,
+      "student_id": 38,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 21,
+      "exam_score": 44,
+      "total_score": 65,
+      "grade": "C+"
+    },
+    {
+      "id": 189,
+      "student_id": 38,
+      "subject_id": 5,
+      "exam_id": 1,
+      "class_work_score": 25,
+      "exam_score": 39,
+      "total_score": 64,
+      "grade": "C"
+    },
+    {
+      "id": 190,
+      "student_id": 38,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 15,
+      "exam_score": 47,
+      "total_score": 62,
+      "grade": "C"
+    },
+    {
+      "id": 191,
+      "student_id": 39,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 18,
+      "exam_score": 31,
+      "total_score": 49,
+      "grade": "F"
+    },
+    {
+      "id": 192,
+      "student_id": 39,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 19,
+      "exam_score": 30,
+      "total_score": 49,
+      "grade": "F"
+    },
+    {
+      "id": 193,
+      "student_id": 39,
+      "subject_id": 5,
+      "exam_id": 1,
+      "class_work_score": 26,
+      "exam_score": 45,
+      "total_score": 71,
+      "grade": "B"
+    },
+    {
+      "id": 194,
+      "student_id": 39,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 25,
+      "exam_score": 31,
+      "total_score": 56,
+      "grade": "D"
+    },
+    {
+      "id": 195,
+      "student_id": 39,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 20,
+      "exam_score": 46,
+      "total_score": 66,
+      "grade": "C+"
+    },
+    {
+      "id": 196,
+      "student_id": 40,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 17,
+      "exam_score": 60,
+      "total_score": 77,
+      "grade": "B+"
+    },
+    {
+      "id": 197,
+      "student_id": 40,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 29,
+      "exam_score": 53,
+      "total_score": 82,
+      "grade": "A"
+    },
+    {
+      "id": 198,
+      "student_id": 40,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 18,
+      "exam_score": 58,
+      "total_score": 76,
+      "grade": "B+"
+    },
+    {
+      "id": 199,
+      "student_id": 40,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 22,
+      "exam_score": 69,
+      "total_score": 91,
+      "grade": "A"
+    },
+    {
+      "id": 200,
+      "student_id": 40,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 16,
+      "exam_score": 63,
+      "total_score": 79,
+      "grade": "B+"
+    },
+    {
+      "id": 201,
+      "student_id": 41,
+      "subject_id": 5,
+      "exam_id": 1,
+      "class_work_score": 30,
+      "exam_score": 55,
+      "total_score": 85,
+      "grade": "A"
+    },
+    {
+      "id": 202,
+      "student_id": 41,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 28,
+      "exam_score": 36,
+      "total_score": 64,
+      "grade": "C"
+    },
+    {
+      "id": 203,
+      "student_id": 41,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 30,
+      "exam_score": 58,
+      "total_score": 88,
+      "grade": "A"
+    },
+    {
+      "id": 204,
+      "student_id": 41,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 17,
+      "exam_score": 35,
+      "total_score": 52,
+      "grade": "D"
+    },
+    {
+      "id": 205,
+      "student_id": 41,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 25,
+      "exam_score": 68,
+      "total_score": 93,
+      "grade": "A"
+    },
+    {
+      "id": 206,
+      "student_id": 42,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 27,
+      "exam_score": 68,
+      "total_score": 95,
+      "grade": "A"
+    },
+    {
+      "id": 207,
+      "student_id": 42,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 24,
+      "exam_score": 59,
+      "total_score": 83,
+      "grade": "A"
+    },
+    {
+      "id": 208,
+      "student_id": 42,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 28,
+      "exam_score": 36,
+      "total_score": 64,
+      "grade": "C"
+    },
+    {
+      "id": 209,
+      "student_id": 42,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 18,
+      "exam_score": 65,
+      "total_score": 83,
+      "grade": "A"
+    },
+    {
+      "id": 210,
+      "student_id": 42,
+      "subject_id": 5,
+      "exam_id": 1,
+      "class_work_score": 21,
+      "exam_score": 57,
+      "total_score": 78,
+      "grade": "B+"
+    },
+    {
+      "id": 211,
+      "student_id": 43,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 27,
+      "exam_score": 56,
+      "total_score": 83,
+      "grade": "A"
+    },
+    {
+      "id": 212,
+      "student_id": 43,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 18,
+      "exam_score": 50,
+      "total_score": 68,
+      "grade": "C+"
+    },
+    {
+      "id": 213,
+      "student_id": 43,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 28,
+      "exam_score": 50,
+      "total_score": 78,
+      "grade": "B+"
+    },
+    {
+      "id": 214,
+      "student_id": 43,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 23,
+      "exam_score": 53,
+      "total_score": 76,
+      "grade": "B+"
+    },
+    {
+      "id": 215,
+      "student_id": 43,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 19,
+      "exam_score": 60,
+      "total_score": 79,
+      "grade": "B+"
+    },
+    {
+      "id": 216,
+      "student_id": 44,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 18,
+      "exam_score": 53,
+      "total_score": 71,
+      "grade": "B"
+    },
+    {
+      "id": 217,
+      "student_id": 44,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 19,
+      "exam_score": 65,
+      "total_score": 84,
+      "grade": "A"
+    },
+    {
+      "id": 218,
+      "student_id": 44,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 16,
+      "exam_score": 67,
+      "total_score": 83,
+      "grade": "A"
+    },
+    {
+      "id": 219,
+      "student_id": 44,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 25,
+      "exam_score": 37,
+      "total_score": 62,
+      "grade": "C"
+    },
+    {
+      "id": 220,
+      "student_id": 44,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 28,
+      "exam_score": 52,
+      "total_score": 80,
+      "grade": "A"
+    },
+    {
+      "id": 221,
+      "student_id": 45,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 24,
+      "exam_score": 52,
+      "total_score": 76,
+      "grade": "B+"
+    },
+    {
+      "id": 222,
+      "student_id": 45,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 18,
+      "exam_score": 66,
+      "total_score": 84,
+      "grade": "A"
+    },
+    {
+      "id": 223,
+      "student_id": 45,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 21,
+      "exam_score": 39,
+      "total_score": 60,
+      "grade": "C"
+    },
+    {
+      "id": 224,
+      "student_id": 45,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 30,
+      "exam_score": 44,
+      "total_score": 74,
+      "grade": "B"
+    },
+    {
+      "id": 225,
+      "student_id": 45,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 18,
+      "exam_score": 52,
+      "total_score": 70,
+      "grade": "B"
+    },
+    {
+      "id": 226,
+      "student_id": 46,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 28,
+      "exam_score": 65,
+      "total_score": 93,
+      "grade": "A"
+    },
+    {
+      "id": 227,
+      "student_id": 46,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 15,
+      "exam_score": 68,
+      "total_score": 83,
+      "grade": "A"
+    },
+    {
+      "id": 228,
+      "student_id": 46,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 23,
+      "exam_score": 31,
+      "total_score": 54,
+      "grade": "D"
+    },
+    {
+      "id": 229,
+      "student_id": 46,
+      "subject_id": 5,
+      "exam_id": 1,
+      "class_work_score": 20,
+      "exam_score": 47,
+      "total_score": 67,
+      "grade": "C+"
+    },
+    {
+      "id": 230,
+      "student_id": 46,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 24,
+      "exam_score": 51,
+      "total_score": 75,
+      "grade": "B+"
+    },
+    {
+      "id": 231,
+      "student_id": 47,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 17,
+      "exam_score": 39,
+      "total_score": 56,
+      "grade": "D"
+    },
+    {
+      "id": 232,
+      "student_id": 47,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 15,
+      "exam_score": 35,
+      "total_score": 50,
+      "grade": "D"
+    },
+    {
+      "id": 233,
+      "student_id": 47,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 21,
+      "exam_score": 54,
+      "total_score": 75,
+      "grade": "B+"
+    },
+    {
+      "id": 234,
+      "student_id": 47,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 28,
+      "exam_score": 59,
+      "total_score": 87,
+      "grade": "A"
+    },
+    {
+      "id": 235,
+      "student_id": 47,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 25,
+      "exam_score": 40,
+      "total_score": 65,
+      "grade": "C+"
+    },
+    {
+      "id": 236,
+      "student_id": 48,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 16,
+      "exam_score": 39,
+      "total_score": 55,
+      "grade": "D"
+    },
+    {
+      "id": 237,
+      "student_id": 48,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 20,
+      "exam_score": 69,
+      "total_score": 89,
+      "grade": "A"
+    },
+    {
+      "id": 238,
+      "student_id": 48,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 16,
+      "exam_score": 35,
+      "total_score": 51,
+      "grade": "D"
+    },
+    {
+      "id": 239,
+      "student_id": 48,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 23,
+      "exam_score": 58,
+      "total_score": 81,
+      "grade": "A"
+    },
+    {
+      "id": 240,
+      "student_id": 48,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 28,
+      "exam_score": 61,
+      "total_score": 89,
+      "grade": "A"
+    },
+    {
+      "id": 241,
+      "student_id": 49,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 26,
+      "exam_score": 57,
+      "total_score": 83,
+      "grade": "A"
+    },
+    {
+      "id": 242,
+      "student_id": 49,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 18,
+      "exam_score": 48,
+      "total_score": 66,
+      "grade": "C+"
+    },
+    {
+      "id": 243,
+      "student_id": 49,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 30,
+      "exam_score": 63,
+      "total_score": 93,
+      "grade": "A"
+    },
+    {
+      "id": 244,
+      "student_id": 49,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 24,
+      "exam_score": 32,
+      "total_score": 56,
+      "grade": "D"
+    },
+    {
+      "id": 245,
+      "student_id": 49,
+      "subject_id": 1,
       "exam_id": 1,
       "class_work_score": 22,
       "exam_score": 55,
@@ -204,47 +4422,2668 @@
       "grade": "B+"
     },
     {
-      "id": 3,
-      "student_id": 2,
+      "id": 246,
+      "student_id": 50,
       "subject_id": 1,
       "exam_id": 1,
+      "class_work_score": 19,
+      "exam_score": 46,
+      "total_score": 65,
+      "grade": "C+"
+    },
+    {
+      "id": 247,
+      "student_id": 50,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 24,
+      "exam_score": 50,
+      "total_score": 74,
+      "grade": "B"
+    },
+    {
+      "id": 248,
+      "student_id": 50,
+      "subject_id": 2,
+      "exam_id": 1,
       "class_work_score": 18,
-      "exam_score": 45,
+      "exam_score": 30,
+      "total_score": 48,
+      "grade": "F"
+    },
+    {
+      "id": 249,
+      "student_id": 50,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 30,
+      "exam_score": 57,
+      "total_score": 87,
+      "grade": "A"
+    },
+    {
+      "id": 250,
+      "student_id": 50,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 20,
+      "exam_score": 38,
+      "total_score": 58,
+      "grade": "D"
+    },
+    {
+      "id": 251,
+      "student_id": 51,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 17,
+      "exam_score": 55,
+      "total_score": 72,
+      "grade": "B"
+    },
+    {
+      "id": 252,
+      "student_id": 51,
+      "subject_id": 5,
+      "exam_id": 1,
+      "class_work_score": 16,
+      "exam_score": 57,
+      "total_score": 73,
+      "grade": "B"
+    },
+    {
+      "id": 253,
+      "student_id": 51,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 15,
+      "exam_score": 59,
+      "total_score": 74,
+      "grade": "B"
+    },
+    {
+      "id": 254,
+      "student_id": 51,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 17,
+      "exam_score": 50,
+      "total_score": 67,
+      "grade": "C+"
+    },
+    {
+      "id": 255,
+      "student_id": 51,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 28,
+      "exam_score": 66,
+      "total_score": 94,
+      "grade": "A"
+    },
+    {
+      "id": 256,
+      "student_id": 52,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 18,
+      "exam_score": 55,
+      "total_score": 73,
+      "grade": "B"
+    },
+    {
+      "id": 257,
+      "student_id": 52,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 15,
+      "exam_score": 50,
+      "total_score": 65,
+      "grade": "C+"
+    },
+    {
+      "id": 258,
+      "student_id": 52,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 20,
+      "exam_score": 69,
+      "total_score": 89,
+      "grade": "A"
+    },
+    {
+      "id": 259,
+      "student_id": 52,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 29,
+      "exam_score": 53,
+      "total_score": 82,
+      "grade": "A"
+    },
+    {
+      "id": 260,
+      "student_id": 52,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 17,
+      "exam_score": 57,
+      "total_score": 74,
+      "grade": "B"
+    },
+    {
+      "id": 261,
+      "student_id": 53,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 17,
+      "exam_score": 55,
+      "total_score": 72,
+      "grade": "B"
+    },
+    {
+      "id": 262,
+      "student_id": 53,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 24,
+      "exam_score": 51,
+      "total_score": 75,
+      "grade": "B+"
+    },
+    {
+      "id": 263,
+      "student_id": 53,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 22,
+      "exam_score": 51,
+      "total_score": 73,
+      "grade": "B"
+    },
+    {
+      "id": 264,
+      "student_id": 53,
+      "subject_id": 5,
+      "exam_id": 1,
+      "class_work_score": 20,
+      "exam_score": 34,
+      "total_score": 54,
+      "grade": "D"
+    },
+    {
+      "id": 265,
+      "student_id": 53,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 18,
+      "exam_score": 63,
+      "total_score": 81,
+      "grade": "A"
+    },
+    {
+      "id": 266,
+      "student_id": 54,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 22,
+      "exam_score": 36,
+      "total_score": 58,
+      "grade": "D"
+    },
+    {
+      "id": 267,
+      "student_id": 54,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 19,
+      "exam_score": 46,
+      "total_score": 65,
+      "grade": "C+"
+    },
+    {
+      "id": 268,
+      "student_id": 54,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 21,
+      "exam_score": 41,
+      "total_score": 62,
+      "grade": "C"
+    },
+    {
+      "id": 269,
+      "student_id": 54,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 19,
+      "exam_score": 34,
+      "total_score": 53,
+      "grade": "D"
+    },
+    {
+      "id": 270,
+      "student_id": 54,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 20,
+      "exam_score": 70,
+      "total_score": 90,
+      "grade": "A"
+    },
+    {
+      "id": 271,
+      "student_id": 55,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 25,
+      "exam_score": 70,
+      "total_score": 95,
+      "grade": "A"
+    },
+    {
+      "id": 272,
+      "student_id": 55,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 25,
+      "exam_score": 39,
+      "total_score": 64,
+      "grade": "C"
+    },
+    {
+      "id": 273,
+      "student_id": 55,
+      "subject_id": 5,
+      "exam_id": 1,
+      "class_work_score": 29,
+      "exam_score": 34,
       "total_score": 63,
       "grade": "C"
     },
     {
-      "id": 4,
-      "student_id": 3,
+      "id": 274,
+      "student_id": 55,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 30,
+      "exam_score": 58,
+      "total_score": 88,
+      "grade": "A"
+    },
+    {
+      "id": 275,
+      "student_id": 55,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 24,
+      "exam_score": 47,
+      "total_score": 71,
+      "grade": "B"
+    },
+    {
+      "id": 276,
+      "student_id": 56,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 29,
+      "exam_score": 58,
+      "total_score": 87,
+      "grade": "A"
+    },
+    {
+      "id": 277,
+      "student_id": 56,
       "subject_id": 3,
       "exam_id": 1,
+      "class_work_score": 16,
+      "exam_score": 33,
+      "total_score": 49,
+      "grade": "F"
+    },
+    {
+      "id": 278,
+      "student_id": 56,
+      "subject_id": 5,
+      "exam_id": 1,
+      "class_work_score": 26,
+      "exam_score": 48,
+      "total_score": 74,
+      "grade": "B"
+    },
+    {
+      "id": 279,
+      "student_id": 56,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 17,
+      "exam_score": 35,
+      "total_score": 52,
+      "grade": "D"
+    },
+    {
+      "id": 280,
+      "student_id": 56,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 27,
+      "exam_score": 59,
+      "total_score": 86,
+      "grade": "A"
+    },
+    {
+      "id": 281,
+      "student_id": 57,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 30,
+      "exam_score": 62,
+      "total_score": 92,
+      "grade": "A"
+    },
+    {
+      "id": 282,
+      "student_id": 57,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 19,
+      "exam_score": 33,
+      "total_score": 52,
+      "grade": "D"
+    },
+    {
+      "id": 283,
+      "student_id": 57,
+      "subject_id": 5,
+      "exam_id": 1,
+      "class_work_score": 29,
+      "exam_score": 36,
+      "total_score": 65,
+      "grade": "C+"
+    },
+    {
+      "id": 284,
+      "student_id": 57,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 25,
+      "exam_score": 35,
+      "total_score": 60,
+      "grade": "C"
+    },
+    {
+      "id": 285,
+      "student_id": 57,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 20,
+      "exam_score": 32,
+      "total_score": 52,
+      "grade": "D"
+    },
+    {
+      "id": 286,
+      "student_id": 58,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 26,
+      "exam_score": 53,
+      "total_score": 79,
+      "grade": "B+"
+    },
+    {
+      "id": 287,
+      "student_id": 58,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 24,
+      "exam_score": 54,
+      "total_score": 78,
+      "grade": "B+"
+    },
+    {
+      "id": 288,
+      "student_id": 58,
+      "subject_id": 8,
+      "exam_id": 1,
       "class_work_score": 28,
-      "exam_score": 65,
-      "total_score": 93,
-      "grade": "A+"
+      "exam_score": 51,
+      "total_score": 79,
+      "grade": "B+"
+    },
+    {
+      "id": 289,
+      "student_id": 58,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 16,
+      "exam_score": 70,
+      "total_score": 86,
+      "grade": "A"
+    },
+    {
+      "id": 290,
+      "student_id": 58,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 25,
+      "exam_score": 34,
+      "total_score": 59,
+      "grade": "D"
+    },
+    {
+      "id": 291,
+      "student_id": 59,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 23,
+      "exam_score": 68,
+      "total_score": 91,
+      "grade": "A"
+    },
+    {
+      "id": 292,
+      "student_id": 59,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 19,
+      "exam_score": 51,
+      "total_score": 70,
+      "grade": "B"
+    },
+    {
+      "id": 293,
+      "student_id": 59,
+      "subject_id": 5,
+      "exam_id": 1,
+      "class_work_score": 17,
+      "exam_score": 67,
+      "total_score": 84,
+      "grade": "A"
+    },
+    {
+      "id": 294,
+      "student_id": 59,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 19,
+      "exam_score": 52,
+      "total_score": 71,
+      "grade": "B"
+    },
+    {
+      "id": 295,
+      "student_id": 59,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 24,
+      "exam_score": 55,
+      "total_score": 79,
+      "grade": "B+"
+    },
+    {
+      "id": 296,
+      "student_id": 60,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 27,
+      "exam_score": 51,
+      "total_score": 78,
+      "grade": "B+"
+    },
+    {
+      "id": 297,
+      "student_id": 60,
+      "subject_id": 5,
+      "exam_id": 1,
+      "class_work_score": 19,
+      "exam_score": 63,
+      "total_score": 82,
+      "grade": "A"
+    },
+    {
+      "id": 298,
+      "student_id": 60,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 17,
+      "exam_score": 57,
+      "total_score": 74,
+      "grade": "B"
+    },
+    {
+      "id": 299,
+      "student_id": 60,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 26,
+      "exam_score": 31,
+      "total_score": 57,
+      "grade": "D"
+    },
+    {
+      "id": 300,
+      "student_id": 60,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 26,
+      "exam_score": 49,
+      "total_score": 75,
+      "grade": "B+"
+    },
+    {
+      "id": 301,
+      "student_id": 61,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 22,
+      "exam_score": 38,
+      "total_score": 60,
+      "grade": "C"
+    },
+    {
+      "id": 302,
+      "student_id": 61,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 19,
+      "exam_score": 34,
+      "total_score": 53,
+      "grade": "D"
+    },
+    {
+      "id": 303,
+      "student_id": 61,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 24,
+      "exam_score": 36,
+      "total_score": 60,
+      "grade": "C"
+    },
+    {
+      "id": 304,
+      "student_id": 61,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 16,
+      "exam_score": 51,
+      "total_score": 67,
+      "grade": "C+"
+    },
+    {
+      "id": 305,
+      "student_id": 61,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 19,
+      "exam_score": 68,
+      "total_score": 87,
+      "grade": "A"
+    },
+    {
+      "id": 306,
+      "student_id": 62,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 29,
+      "exam_score": 32,
+      "total_score": 61,
+      "grade": "C"
+    },
+    {
+      "id": 307,
+      "student_id": 62,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 28,
+      "exam_score": 53,
+      "total_score": 81,
+      "grade": "A"
+    },
+    {
+      "id": 308,
+      "student_id": 62,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 22,
+      "exam_score": 58,
+      "total_score": 80,
+      "grade": "A"
+    },
+    {
+      "id": 309,
+      "student_id": 62,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 24,
+      "exam_score": 58,
+      "total_score": 82,
+      "grade": "A"
+    },
+    {
+      "id": 310,
+      "student_id": 62,
+      "subject_id": 5,
+      "exam_id": 1,
+      "class_work_score": 22,
+      "exam_score": 64,
+      "total_score": 86,
+      "grade": "A"
+    },
+    {
+      "id": 311,
+      "student_id": 63,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 29,
+      "exam_score": 59,
+      "total_score": 88,
+      "grade": "A"
+    },
+    {
+      "id": 312,
+      "student_id": 63,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 24,
+      "exam_score": 54,
+      "total_score": 78,
+      "grade": "B+"
+    },
+    {
+      "id": 313,
+      "student_id": 63,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 28,
+      "exam_score": 40,
+      "total_score": 68,
+      "grade": "C+"
+    },
+    {
+      "id": 314,
+      "student_id": 63,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 21,
+      "exam_score": 68,
+      "total_score": 89,
+      "grade": "A"
+    },
+    {
+      "id": 315,
+      "student_id": 63,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 19,
+      "exam_score": 46,
+      "total_score": 65,
+      "grade": "C+"
+    },
+    {
+      "id": 316,
+      "student_id": 64,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 18,
+      "exam_score": 48,
+      "total_score": 66,
+      "grade": "C+"
+    },
+    {
+      "id": 317,
+      "student_id": 64,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 17,
+      "exam_score": 40,
+      "total_score": 57,
+      "grade": "D"
+    },
+    {
+      "id": 318,
+      "student_id": 64,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 23,
+      "exam_score": 58,
+      "total_score": 81,
+      "grade": "A"
+    },
+    {
+      "id": 319,
+      "student_id": 64,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 19,
+      "exam_score": 57,
+      "total_score": 76,
+      "grade": "B+"
+    },
+    {
+      "id": 320,
+      "student_id": 64,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 17,
+      "exam_score": 44,
+      "total_score": 61,
+      "grade": "C"
+    },
+    {
+      "id": 321,
+      "student_id": 65,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 27,
+      "exam_score": 62,
+      "total_score": 89,
+      "grade": "A"
+    },
+    {
+      "id": 322,
+      "student_id": 65,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 26,
+      "exam_score": 45,
+      "total_score": 71,
+      "grade": "B"
+    },
+    {
+      "id": 323,
+      "student_id": 65,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 27,
+      "exam_score": 35,
+      "total_score": 62,
+      "grade": "C"
+    },
+    {
+      "id": 324,
+      "student_id": 65,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 26,
+      "exam_score": 44,
+      "total_score": 70,
+      "grade": "B"
+    },
+    {
+      "id": 325,
+      "student_id": 65,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 15,
+      "exam_score": 50,
+      "total_score": 65,
+      "grade": "C+"
+    },
+    {
+      "id": 326,
+      "student_id": 66,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 19,
+      "exam_score": 32,
+      "total_score": 51,
+      "grade": "D"
+    },
+    {
+      "id": 327,
+      "student_id": 66,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 24,
+      "exam_score": 60,
+      "total_score": 84,
+      "grade": "A"
+    },
+    {
+      "id": 328,
+      "student_id": 66,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 19,
+      "exam_score": 60,
+      "total_score": 79,
+      "grade": "B+"
+    },
+    {
+      "id": 329,
+      "student_id": 66,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 29,
+      "exam_score": 69,
+      "total_score": 98,
+      "grade": "A"
+    },
+    {
+      "id": 330,
+      "student_id": 66,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 15,
+      "exam_score": 35,
+      "total_score": 50,
+      "grade": "D"
+    },
+    {
+      "id": 331,
+      "student_id": 67,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 18,
+      "exam_score": 48,
+      "total_score": 66,
+      "grade": "C+"
+    },
+    {
+      "id": 332,
+      "student_id": 67,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 22,
+      "exam_score": 49,
+      "total_score": 71,
+      "grade": "B"
+    },
+    {
+      "id": 333,
+      "student_id": 67,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 18,
+      "exam_score": 33,
+      "total_score": 51,
+      "grade": "D"
+    },
+    {
+      "id": 334,
+      "student_id": 67,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 22,
+      "exam_score": 56,
+      "total_score": 78,
+      "grade": "B+"
+    },
+    {
+      "id": 335,
+      "student_id": 67,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 29,
+      "exam_score": 34,
+      "total_score": 63,
+      "grade": "C"
+    },
+    {
+      "id": 336,
+      "student_id": 68,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 22,
+      "exam_score": 39,
+      "total_score": 61,
+      "grade": "C"
+    },
+    {
+      "id": 337,
+      "student_id": 68,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 24,
+      "exam_score": 57,
+      "total_score": 81,
+      "grade": "A"
+    },
+    {
+      "id": 338,
+      "student_id": 68,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 15,
+      "exam_score": 69,
+      "total_score": 84,
+      "grade": "A"
+    },
+    {
+      "id": 339,
+      "student_id": 68,
+      "subject_id": 5,
+      "exam_id": 1,
+      "class_work_score": 26,
+      "exam_score": 45,
+      "total_score": 71,
+      "grade": "B"
+    },
+    {
+      "id": 340,
+      "student_id": 68,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 28,
+      "exam_score": 41,
+      "total_score": 69,
+      "grade": "C+"
+    },
+    {
+      "id": 341,
+      "student_id": 69,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 27,
+      "exam_score": 60,
+      "total_score": 87,
+      "grade": "A"
+    },
+    {
+      "id": 342,
+      "student_id": 69,
+      "subject_id": 5,
+      "exam_id": 1,
+      "class_work_score": 16,
+      "exam_score": 70,
+      "total_score": 86,
+      "grade": "A"
+    },
+    {
+      "id": 343,
+      "student_id": 69,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 27,
+      "exam_score": 53,
+      "total_score": 80,
+      "grade": "A"
+    },
+    {
+      "id": 344,
+      "student_id": 69,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 23,
+      "exam_score": 31,
+      "total_score": 54,
+      "grade": "D"
+    },
+    {
+      "id": 345,
+      "student_id": 69,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 26,
+      "exam_score": 34,
+      "total_score": 60,
+      "grade": "C"
+    },
+    {
+      "id": 346,
+      "student_id": 70,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 19,
+      "exam_score": 32,
+      "total_score": 51,
+      "grade": "D"
+    },
+    {
+      "id": 347,
+      "student_id": 70,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 26,
+      "exam_score": 64,
+      "total_score": 90,
+      "grade": "A"
+    },
+    {
+      "id": 348,
+      "student_id": 70,
+      "subject_id": 8,
+      "exam_id": 1,
+      "class_work_score": 25,
+      "exam_score": 41,
+      "total_score": 66,
+      "grade": "C+"
+    },
+    {
+      "id": 349,
+      "student_id": 70,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 29,
+      "exam_score": 60,
+      "total_score": 89,
+      "grade": "A"
+    },
+    {
+      "id": 350,
+      "student_id": 70,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 20,
+      "exam_score": 38,
+      "total_score": 58,
+      "grade": "D"
+    },
+    {
+      "id": 351,
+      "student_id": 71,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 21,
+      "exam_score": 32,
+      "total_score": 53,
+      "grade": "D"
+    },
+    {
+      "id": 352,
+      "student_id": 71,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 21,
+      "exam_score": 32,
+      "total_score": 53,
+      "grade": "D"
+    },
+    {
+      "id": 353,
+      "student_id": 71,
+      "subject_id": 4,
+      "exam_id": 1,
+      "class_work_score": 25,
+      "exam_score": 49,
+      "total_score": 74,
+      "grade": "B"
+    },
+    {
+      "id": 354,
+      "student_id": 71,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 27,
+      "exam_score": 64,
+      "total_score": 91,
+      "grade": "A"
+    },
+    {
+      "id": 355,
+      "student_id": 71,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 30,
+      "exam_score": 46,
+      "total_score": 76,
+      "grade": "B+"
+    },
+    {
+      "id": 356,
+      "student_id": 72,
+      "subject_id": 1,
+      "exam_id": 1,
+      "class_work_score": 26,
+      "exam_score": 33,
+      "total_score": 59,
+      "grade": "D"
+    },
+    {
+      "id": 357,
+      "student_id": 72,
+      "subject_id": 7,
+      "exam_id": 1,
+      "class_work_score": 25,
+      "exam_score": 47,
+      "total_score": 72,
+      "grade": "B"
+    },
+    {
+      "id": 358,
+      "student_id": 72,
+      "subject_id": 6,
+      "exam_id": 1,
+      "class_work_score": 18,
+      "exam_score": 53,
+      "total_score": 71,
+      "grade": "B"
+    },
+    {
+      "id": 359,
+      "student_id": 72,
+      "subject_id": 2,
+      "exam_id": 1,
+      "class_work_score": 28,
+      "exam_score": 55,
+      "total_score": 83,
+      "grade": "A"
+    },
+    {
+      "id": 360,
+      "student_id": 72,
+      "subject_id": 3,
+      "exam_id": 1,
+      "class_work_score": 29,
+      "exam_score": 54,
+      "total_score": 83,
+      "grade": "A"
     }
   ],
   "attendances": [
     {
       "id": 1,
       "student_id": 1,
-      "date": "2026-06-15",
+      "date": "2026-06-11",
       "status": "present",
       "remarks": "On time"
     },
     {
       "id": 2,
       "student_id": 2,
-      "date": "2026-06-15",
+      "date": "2026-06-11",
       "status": "present",
       "remarks": "On time"
     },
     {
       "id": 3,
       "student_id": 3,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 4,
+      "student_id": 4,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 5,
+      "student_id": 5,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 6,
+      "student_id": 6,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 7,
+      "student_id": 7,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 8,
+      "student_id": 8,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 9,
+      "student_id": 9,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 10,
+      "student_id": 10,
+      "date": "2026-06-11",
+      "status": "absent",
+      "remarks": "Sick leave"
+    },
+    {
+      "id": 11,
+      "student_id": 11,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 12,
+      "student_id": 12,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 13,
+      "student_id": 13,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 14,
+      "student_id": 14,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 15,
+      "student_id": 15,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 16,
+      "student_id": 16,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 17,
+      "student_id": 17,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 18,
+      "student_id": 18,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 19,
+      "student_id": 19,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 20,
+      "student_id": 20,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 21,
+      "student_id": 21,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 22,
+      "student_id": 22,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 23,
+      "student_id": 23,
+      "date": "2026-06-11",
+      "status": "absent",
+      "remarks": "Family emergency"
+    },
+    {
+      "id": 24,
+      "student_id": 24,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 25,
+      "student_id": 25,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 26,
+      "student_id": 26,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 27,
+      "student_id": 27,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 28,
+      "student_id": 28,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 29,
+      "student_id": 29,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 30,
+      "student_id": 30,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 31,
+      "student_id": 31,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 32,
+      "student_id": 32,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 33,
+      "student_id": 33,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 34,
+      "student_id": 34,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 35,
+      "student_id": 35,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 36,
+      "student_id": 36,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 37,
+      "student_id": 37,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 38,
+      "student_id": 38,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 39,
+      "student_id": 39,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 40,
+      "student_id": 40,
+      "date": "2026-06-11",
+      "status": "absent",
+      "remarks": "Sick leave"
+    },
+    {
+      "id": 41,
+      "student_id": 41,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 42,
+      "student_id": 42,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 43,
+      "student_id": 43,
+      "date": "2026-06-11",
+      "status": "absent",
+      "remarks": "Family emergency"
+    },
+    {
+      "id": 44,
+      "student_id": 44,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 45,
+      "student_id": 45,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 46,
+      "student_id": 46,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 47,
+      "student_id": 47,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 48,
+      "student_id": 48,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 49,
+      "student_id": 49,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 50,
+      "student_id": 50,
+      "date": "2026-06-11",
+      "status": "absent",
+      "remarks": "Sick leave"
+    },
+    {
+      "id": 51,
+      "student_id": 51,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 52,
+      "student_id": 52,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 53,
+      "student_id": 53,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 54,
+      "student_id": 54,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 55,
+      "student_id": 55,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 56,
+      "student_id": 56,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 57,
+      "student_id": 57,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 58,
+      "student_id": 58,
+      "date": "2026-06-11",
+      "status": "absent",
+      "remarks": "Family emergency"
+    },
+    {
+      "id": 59,
+      "student_id": 59,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 60,
+      "student_id": 60,
+      "date": "2026-06-11",
+      "status": "absent",
+      "remarks": "Sick leave"
+    },
+    {
+      "id": 61,
+      "student_id": 61,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 62,
+      "student_id": 62,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 63,
+      "student_id": 63,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 64,
+      "student_id": 64,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 65,
+      "student_id": 65,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 66,
+      "student_id": 66,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 67,
+      "student_id": 67,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 68,
+      "student_id": 68,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 69,
+      "student_id": 69,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 70,
+      "student_id": 70,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 71,
+      "student_id": 71,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 72,
+      "student_id": 72,
+      "date": "2026-06-11",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 73,
+      "student_id": 1,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 74,
+      "student_id": 2,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 75,
+      "student_id": 3,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 76,
+      "student_id": 4,
+      "date": "2026-06-12",
+      "status": "absent",
+      "remarks": "No show"
+    },
+    {
+      "id": 77,
+      "student_id": 5,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 78,
+      "student_id": 6,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 79,
+      "student_id": 7,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 80,
+      "student_id": 8,
+      "date": "2026-06-12",
+      "status": "absent",
+      "remarks": "Sick leave"
+    },
+    {
+      "id": 81,
+      "student_id": 9,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 82,
+      "student_id": 10,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 83,
+      "student_id": 11,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 84,
+      "student_id": 12,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 85,
+      "student_id": 13,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 86,
+      "student_id": 14,
+      "date": "2026-06-12",
+      "status": "absent",
+      "remarks": "Sick leave"
+    },
+    {
+      "id": 87,
+      "student_id": 15,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 88,
+      "student_id": 16,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 89,
+      "student_id": 17,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 90,
+      "student_id": 18,
+      "date": "2026-06-12",
+      "status": "absent",
+      "remarks": "No show"
+    },
+    {
+      "id": 91,
+      "student_id": 19,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 92,
+      "student_id": 20,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 93,
+      "student_id": 21,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 94,
+      "student_id": 22,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 95,
+      "student_id": 23,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 96,
+      "student_id": 24,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 97,
+      "student_id": 25,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 98,
+      "student_id": 26,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 99,
+      "student_id": 27,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 100,
+      "student_id": 28,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 101,
+      "student_id": 29,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 102,
+      "student_id": 30,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 103,
+      "student_id": 31,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 104,
+      "student_id": 32,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 105,
+      "student_id": 33,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 106,
+      "student_id": 34,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 107,
+      "student_id": 35,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 108,
+      "student_id": 36,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 109,
+      "student_id": 37,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 110,
+      "student_id": 38,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 111,
+      "student_id": 39,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 112,
+      "student_id": 40,
+      "date": "2026-06-12",
+      "status": "absent",
+      "remarks": "Sick leave"
+    },
+    {
+      "id": 113,
+      "student_id": 41,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 114,
+      "student_id": 42,
+      "date": "2026-06-12",
+      "status": "absent",
+      "remarks": "Family emergency"
+    },
+    {
+      "id": 115,
+      "student_id": 43,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 116,
+      "student_id": 44,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 117,
+      "student_id": 45,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 118,
+      "student_id": 46,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 119,
+      "student_id": 47,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 120,
+      "student_id": 48,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 121,
+      "student_id": 49,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 122,
+      "student_id": 50,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 123,
+      "student_id": 51,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 124,
+      "student_id": 52,
+      "date": "2026-06-12",
+      "status": "absent",
+      "remarks": "Sick leave"
+    },
+    {
+      "id": 125,
+      "student_id": 53,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 126,
+      "student_id": 54,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 127,
+      "student_id": 55,
+      "date": "2026-06-12",
+      "status": "absent",
+      "remarks": "Family emergency"
+    },
+    {
+      "id": 128,
+      "student_id": 56,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 129,
+      "student_id": 57,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 130,
+      "student_id": 58,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 131,
+      "student_id": 59,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 132,
+      "student_id": 60,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 133,
+      "student_id": 61,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 134,
+      "student_id": 62,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 135,
+      "student_id": 63,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 136,
+      "student_id": 64,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 137,
+      "student_id": 65,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 138,
+      "student_id": 66,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 139,
+      "student_id": 67,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 140,
+      "student_id": 68,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 141,
+      "student_id": 69,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 142,
+      "student_id": 70,
+      "date": "2026-06-12",
+      "status": "absent",
+      "remarks": "Family emergency"
+    },
+    {
+      "id": 143,
+      "student_id": 71,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 144,
+      "student_id": 72,
+      "date": "2026-06-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 145,
+      "student_id": 1,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 146,
+      "student_id": 2,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 147,
+      "student_id": 3,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 148,
+      "student_id": 4,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 149,
+      "student_id": 5,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 150,
+      "student_id": 6,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 151,
+      "student_id": 7,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 152,
+      "student_id": 8,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 153,
+      "student_id": 9,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 154,
+      "student_id": 10,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 155,
+      "student_id": 11,
+      "date": "2026-06-15",
+      "status": "absent",
+      "remarks": "Family emergency"
+    },
+    {
+      "id": 156,
+      "student_id": 12,
       "date": "2026-06-15",
       "status": "absent",
       "remarks": "Sick leave"
+    },
+    {
+      "id": 157,
+      "student_id": 13,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 158,
+      "student_id": 14,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 159,
+      "student_id": 15,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 160,
+      "student_id": 16,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 161,
+      "student_id": 17,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 162,
+      "student_id": 18,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 163,
+      "student_id": 19,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 164,
+      "student_id": 20,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 165,
+      "student_id": 21,
+      "date": "2026-06-15",
+      "status": "absent",
+      "remarks": "No show"
+    },
+    {
+      "id": 166,
+      "student_id": 22,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 167,
+      "student_id": 23,
+      "date": "2026-06-15",
+      "status": "absent",
+      "remarks": "Sick leave"
+    },
+    {
+      "id": 168,
+      "student_id": 24,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 169,
+      "student_id": 25,
+      "date": "2026-06-15",
+      "status": "absent",
+      "remarks": "No show"
+    },
+    {
+      "id": 170,
+      "student_id": 26,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 171,
+      "student_id": 27,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 172,
+      "student_id": 28,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 173,
+      "student_id": 29,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 174,
+      "student_id": 30,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 175,
+      "student_id": 31,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 176,
+      "student_id": 32,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 177,
+      "student_id": 33,
+      "date": "2026-06-15",
+      "status": "absent",
+      "remarks": "No show"
+    },
+    {
+      "id": 178,
+      "student_id": 34,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 179,
+      "student_id": 35,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 180,
+      "student_id": 36,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 181,
+      "student_id": 37,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 182,
+      "student_id": 38,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 183,
+      "student_id": 39,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 184,
+      "student_id": 40,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 185,
+      "student_id": 41,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 186,
+      "student_id": 42,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 187,
+      "student_id": 43,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 188,
+      "student_id": 44,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 189,
+      "student_id": 45,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 190,
+      "student_id": 46,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 191,
+      "student_id": 47,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 192,
+      "student_id": 48,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 193,
+      "student_id": 49,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 194,
+      "student_id": 50,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 195,
+      "student_id": 51,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 196,
+      "student_id": 52,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 197,
+      "student_id": 53,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 198,
+      "student_id": 54,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 199,
+      "student_id": 55,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 200,
+      "student_id": 56,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 201,
+      "student_id": 57,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 202,
+      "student_id": 58,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 203,
+      "student_id": 59,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 204,
+      "student_id": 60,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 205,
+      "student_id": 61,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 206,
+      "student_id": 62,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 207,
+      "student_id": 63,
+      "date": "2026-06-15",
+      "status": "absent",
+      "remarks": "No show"
+    },
+    {
+      "id": 208,
+      "student_id": 64,
+      "date": "2026-06-15",
+      "status": "absent",
+      "remarks": "Sick leave"
+    },
+    {
+      "id": 209,
+      "student_id": 65,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 210,
+      "student_id": 66,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 211,
+      "student_id": 67,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 212,
+      "student_id": 68,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 213,
+      "student_id": 69,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 214,
+      "student_id": 70,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 215,
+      "student_id": 71,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": 216,
+      "student_id": 72,
+      "date": "2026-06-15",
+      "status": "present",
+      "remarks": "On time"
     }
   ],
   "finance_ledger": [
@@ -252,9 +7091,9 @@
       "id": 1,
       "student_id": 1,
       "description": "First Term Tuition Fee",
-      "amount_due": 1200.00,
-      "amount_paid": 1200.00,
-      "balance": 0.00,
+      "amount_due": 1200.0,
+      "amount_paid": 1200.0,
+      "balance": 0.0,
       "payment_status": "paid",
       "date": "2026-01-10"
     },
@@ -262,21 +7101,1201 @@
       "id": 2,
       "student_id": 2,
       "description": "First Term Tuition Fee",
-      "amount_due": 1200.00,
-      "amount_paid": 800.00,
-      "balance": 400.00,
-      "payment_status": "partial",
-      "date": "2026-01-11"
+      "amount_due": 1200.0,
+      "amount_paid": 0.0,
+      "balance": 1200.0,
+      "payment_status": "unpaid",
+      "date": "2026-01-10"
     },
     {
       "id": 3,
+      "student_id": 2,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 180.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 4,
+      "student_id": 3,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 0.0,
+      "balance": 1200.0,
+      "payment_status": "unpaid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 5,
       "student_id": 3,
       "description": "Feeding Program Fee (June)",
-      "amount_due": 150.00,
-      "amount_paid": 0.00,
-      "balance": 150.00,
+      "amount_due": 180.0,
+      "amount_paid": 180.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 6,
+      "student_id": 4,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 1200.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 7,
+      "student_id": 4,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 180.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 8,
+      "student_id": 5,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 1200.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 9,
+      "student_id": 5,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 180.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 10,
+      "student_id": 6,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 0.0,
+      "balance": 1200.0,
+      "payment_status": "unpaid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 11,
+      "student_id": 6,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 0.0,
+      "balance": 180.0,
       "payment_status": "unpaid",
       "date": "2026-06-01"
+    },
+    {
+      "id": 12,
+      "student_id": 7,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 600.0,
+      "balance": 600.0,
+      "payment_status": "partial",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 13,
+      "student_id": 7,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 0.0,
+      "balance": 180.0,
+      "payment_status": "unpaid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 14,
+      "student_id": 8,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 1200.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 15,
+      "student_id": 8,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 0.0,
+      "balance": 180.0,
+      "payment_status": "unpaid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 16,
+      "student_id": 9,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 1200.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 17,
+      "student_id": 9,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 180.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 18,
+      "student_id": 10,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 0.0,
+      "balance": 1200.0,
+      "payment_status": "unpaid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 19,
+      "student_id": 10,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 180.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 20,
+      "student_id": 11,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 0.0,
+      "balance": 1200.0,
+      "payment_status": "unpaid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 21,
+      "student_id": 12,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 0.0,
+      "balance": 1200.0,
+      "payment_status": "unpaid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 22,
+      "student_id": 12,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 0.0,
+      "balance": 180.0,
+      "payment_status": "unpaid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 23,
+      "student_id": 13,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 0.0,
+      "balance": 1200.0,
+      "payment_status": "unpaid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 24,
+      "student_id": 13,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 180.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 25,
+      "student_id": 14,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 600.0,
+      "balance": 600.0,
+      "payment_status": "partial",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 26,
+      "student_id": 14,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 0.0,
+      "balance": 180.0,
+      "payment_status": "unpaid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 27,
+      "student_id": 15,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 600.0,
+      "balance": 600.0,
+      "payment_status": "partial",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 28,
+      "student_id": 15,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 180.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 29,
+      "student_id": 16,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 1200.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 30,
+      "student_id": 17,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 1200.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 31,
+      "student_id": 17,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 0.0,
+      "balance": 180.0,
+      "payment_status": "unpaid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 32,
+      "student_id": 18,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 1200.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 33,
+      "student_id": 18,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 180.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 34,
+      "student_id": 19,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 1200.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 35,
+      "student_id": 19,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 0.0,
+      "balance": 180.0,
+      "payment_status": "unpaid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 36,
+      "student_id": 20,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 600.0,
+      "balance": 600.0,
+      "payment_status": "partial",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 37,
+      "student_id": 21,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 600.0,
+      "balance": 600.0,
+      "payment_status": "partial",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 38,
+      "student_id": 21,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 180.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 39,
+      "student_id": 22,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 1200.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 40,
+      "student_id": 22,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 0.0,
+      "balance": 180.0,
+      "payment_status": "unpaid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 41,
+      "student_id": 23,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 600.0,
+      "balance": 600.0,
+      "payment_status": "partial",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 42,
+      "student_id": 23,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 0.0,
+      "balance": 180.0,
+      "payment_status": "unpaid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 43,
+      "student_id": 24,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 600.0,
+      "balance": 600.0,
+      "payment_status": "partial",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 44,
+      "student_id": 25,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 1200.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 45,
+      "student_id": 25,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 180.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 46,
+      "student_id": 26,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 600.0,
+      "balance": 600.0,
+      "payment_status": "partial",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 47,
+      "student_id": 26,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 180.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 48,
+      "student_id": 27,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 600.0,
+      "balance": 600.0,
+      "payment_status": "partial",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 49,
+      "student_id": 27,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 180.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 50,
+      "student_id": 28,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 600.0,
+      "balance": 600.0,
+      "payment_status": "partial",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 51,
+      "student_id": 29,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 0.0,
+      "balance": 1200.0,
+      "payment_status": "unpaid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 52,
+      "student_id": 29,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 180.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 53,
+      "student_id": 30,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 1200.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 54,
+      "student_id": 30,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 180.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 55,
+      "student_id": 31,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 1200.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 56,
+      "student_id": 31,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 180.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 57,
+      "student_id": 32,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 0.0,
+      "balance": 1200.0,
+      "payment_status": "unpaid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 58,
+      "student_id": 32,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 180.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 59,
+      "student_id": 33,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 1200.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 60,
+      "student_id": 34,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 0.0,
+      "balance": 1200.0,
+      "payment_status": "unpaid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 61,
+      "student_id": 34,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 0.0,
+      "balance": 180.0,
+      "payment_status": "unpaid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 62,
+      "student_id": 35,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 0.0,
+      "balance": 1200.0,
+      "payment_status": "unpaid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 63,
+      "student_id": 35,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 0.0,
+      "balance": 180.0,
+      "payment_status": "unpaid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 64,
+      "student_id": 36,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 1200.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 65,
+      "student_id": 36,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 0.0,
+      "balance": 180.0,
+      "payment_status": "unpaid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 66,
+      "student_id": 37,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 600.0,
+      "balance": 600.0,
+      "payment_status": "partial",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 67,
+      "student_id": 37,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 180.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 68,
+      "student_id": 38,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 0.0,
+      "balance": 1200.0,
+      "payment_status": "unpaid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 69,
+      "student_id": 39,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 0.0,
+      "balance": 1200.0,
+      "payment_status": "unpaid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 70,
+      "student_id": 39,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 0.0,
+      "balance": 180.0,
+      "payment_status": "unpaid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 71,
+      "student_id": 40,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 600.0,
+      "balance": 600.0,
+      "payment_status": "partial",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 72,
+      "student_id": 41,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 600.0,
+      "balance": 600.0,
+      "payment_status": "partial",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 73,
+      "student_id": 41,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 0.0,
+      "balance": 180.0,
+      "payment_status": "unpaid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 74,
+      "student_id": 42,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 600.0,
+      "balance": 600.0,
+      "payment_status": "partial",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 75,
+      "student_id": 42,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 0.0,
+      "balance": 180.0,
+      "payment_status": "unpaid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 76,
+      "student_id": 43,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 0.0,
+      "balance": 1200.0,
+      "payment_status": "unpaid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 77,
+      "student_id": 44,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 0.0,
+      "balance": 1200.0,
+      "payment_status": "unpaid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 78,
+      "student_id": 44,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 0.0,
+      "balance": 180.0,
+      "payment_status": "unpaid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 79,
+      "student_id": 45,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 0.0,
+      "balance": 1200.0,
+      "payment_status": "unpaid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 80,
+      "student_id": 45,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 0.0,
+      "balance": 180.0,
+      "payment_status": "unpaid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 81,
+      "student_id": 46,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 0.0,
+      "balance": 1200.0,
+      "payment_status": "unpaid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 82,
+      "student_id": 47,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 600.0,
+      "balance": 600.0,
+      "payment_status": "partial",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 83,
+      "student_id": 48,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 0.0,
+      "balance": 1200.0,
+      "payment_status": "unpaid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 84,
+      "student_id": 49,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 600.0,
+      "balance": 600.0,
+      "payment_status": "partial",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 85,
+      "student_id": 50,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 0.0,
+      "balance": 1200.0,
+      "payment_status": "unpaid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 86,
+      "student_id": 50,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 0.0,
+      "balance": 180.0,
+      "payment_status": "unpaid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 87,
+      "student_id": 51,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 600.0,
+      "balance": 600.0,
+      "payment_status": "partial",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 88,
+      "student_id": 51,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 180.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 89,
+      "student_id": 52,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 0.0,
+      "balance": 1200.0,
+      "payment_status": "unpaid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 90,
+      "student_id": 53,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 600.0,
+      "balance": 600.0,
+      "payment_status": "partial",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 91,
+      "student_id": 53,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 0.0,
+      "balance": 180.0,
+      "payment_status": "unpaid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 92,
+      "student_id": 54,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 600.0,
+      "balance": 600.0,
+      "payment_status": "partial",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 93,
+      "student_id": 54,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 180.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 94,
+      "student_id": 55,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 1200.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 95,
+      "student_id": 55,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 0.0,
+      "balance": 180.0,
+      "payment_status": "unpaid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 96,
+      "student_id": 56,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 0.0,
+      "balance": 1200.0,
+      "payment_status": "unpaid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 97,
+      "student_id": 57,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 600.0,
+      "balance": 600.0,
+      "payment_status": "partial",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 98,
+      "student_id": 57,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 0.0,
+      "balance": 180.0,
+      "payment_status": "unpaid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 99,
+      "student_id": 58,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 0.0,
+      "balance": 1200.0,
+      "payment_status": "unpaid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 100,
+      "student_id": 59,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 1200.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 101,
+      "student_id": 60,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 600.0,
+      "balance": 600.0,
+      "payment_status": "partial",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 102,
+      "student_id": 60,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 0.0,
+      "balance": 180.0,
+      "payment_status": "unpaid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 103,
+      "student_id": 61,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 600.0,
+      "balance": 600.0,
+      "payment_status": "partial",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 104,
+      "student_id": 62,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 0.0,
+      "balance": 1200.0,
+      "payment_status": "unpaid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 105,
+      "student_id": 63,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 600.0,
+      "balance": 600.0,
+      "payment_status": "partial",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 106,
+      "student_id": 63,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 0.0,
+      "balance": 180.0,
+      "payment_status": "unpaid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 107,
+      "student_id": 64,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 0.0,
+      "balance": 1200.0,
+      "payment_status": "unpaid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 108,
+      "student_id": 64,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 0.0,
+      "balance": 180.0,
+      "payment_status": "unpaid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 109,
+      "student_id": 65,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 600.0,
+      "balance": 600.0,
+      "payment_status": "partial",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 110,
+      "student_id": 66,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 600.0,
+      "balance": 600.0,
+      "payment_status": "partial",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 111,
+      "student_id": 66,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 0.0,
+      "balance": 180.0,
+      "payment_status": "unpaid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 112,
+      "student_id": 67,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 600.0,
+      "balance": 600.0,
+      "payment_status": "partial",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 113,
+      "student_id": 68,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 1200.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 114,
+      "student_id": 68,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 0.0,
+      "balance": 180.0,
+      "payment_status": "unpaid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 115,
+      "student_id": 69,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 600.0,
+      "balance": 600.0,
+      "payment_status": "partial",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 116,
+      "student_id": 69,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 180.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 117,
+      "student_id": 70,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 1200.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 118,
+      "student_id": 70,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 180.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 119,
+      "student_id": 71,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 1200.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-01-10"
+    },
+    {
+      "id": 120,
+      "student_id": 71,
+      "description": "Feeding Program Fee (June)",
+      "amount_due": 180.0,
+      "amount_paid": 180.0,
+      "balance": 0.0,
+      "payment_status": "paid",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 121,
+      "student_id": 72,
+      "description": "First Term Tuition Fee",
+      "amount_due": 1200.0,
+      "amount_paid": 600.0,
+      "balance": 600.0,
+      "payment_status": "partial",
+      "date": "2026-01-10"
     }
   ]
 }
